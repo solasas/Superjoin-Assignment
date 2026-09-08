@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Runtime DB artifacts. data/knowledge.db itself is tracked on purpose --
+# it is the demo knowledge base a reviewer can browse without an API key
+# (regenerate with scripts/ingest_cli.py; re-export with scripts/export_sample.py).
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+data/uploads/
+
+.env
+*.log
+.DS_Store
+node_modules/
+
+# Editor / IDE
+.idea/
+.vscode/
