@@ -14,8 +14,13 @@ limitations.
 
 ## Video Demo
 
-**▶ [Demo video (≤3 min)](PASTE_LINK_HERE)** — ingesting a PDF and walking
-through the four required cases below.
+**▶ [Watch the demo (≤3 min)](PASTE_LINK_HERE)** — a PDF being ingested,
+followed by a walk through the four required cases with the evidence and the
+system's own reasoning for each.
+
+A silent screen-capture of the same UI walkthrough is committed at
+[`docs/walkthrough.gif`](docs/walkthrough.gif) (and `docs/walkthrough.mp4`) as
+a fallback; the narration script is at [`docs/narration.md`](docs/narration.md).
 
 ---
 
@@ -531,4 +536,24 @@ pages, reproducible with the command in
 - Git history was initialized late: the project was built in one continuous
   Claude Code session (see [Approach](#approach)), so the commits group the
   codebase by subsystem rather than replaying that session turn by turn.
-# Superjoin-Assignment
+
+---
+
+## Submission checklist
+
+- [x] **Runs from these instructions and accepts new PDFs** — `./run.sh` → UI
+  at `localhost:8000` (drag-and-drop upload), or `python scripts/ingest_cli.py`.
+  Both go through the same `ingest_document()` path.
+- [x] **Results contain facts, source evidence, and cross-document
+  relationships** — `/api/facts` returns each fact with its verbatim `quote`,
+  `page`, `document_id`, and `grounded` flag; `/api/relations` returns each
+  relation with both facts, both evidence quotes, and the classifier's
+  explanation. All browsable in the UI and dumped to `sample_output/`.
+- [x] **The four required cases** — [documented above](#the-four-required-cases)
+  with real, unedited system output: evidence and reasoning for the
+  corroboration, the contradiction, and the context-reconciled case, plus a
+  genuine extraction/reasoning failure and how it is handled and would be
+  improved.
+- [x] **Approach documented** — [Approach](#approach) and
+  [Limitations and Next Steps](#limitations-and-next-steps).
+- [ ] **Demo video (≤3 min)** — link at the top of this README once recorded.
