@@ -531,3 +531,4 @@ pages, reproducible with the command in
 - Git history was initialized late: the project was built in one continuous
   Claude Code session (see [Approach](#approach)), so the commits group the
   codebase by subsystem rather than replaying that session turn by turn.
+# Superjoin-Assignment
