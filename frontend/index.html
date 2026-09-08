@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Fact Knowledge Layer</title>
+<style>
+  :root {
+    --bg: #f7f7f8;
+    --panel: #ffffff;
+    --panel2: #f4f4f5;
+    --border: #e4e4e7;
+    --border-strong: #d4d4d8;
+    --text: #18181b;
+    --muted: #71717a;
+    --accent: #2f4bd8;
+    --corr: #15803d;   --corr-bg: #f0fdf4;   --corr-bd: #bbf7d0;
+    --contra: #b91c1c; --contra-bg: #fef2f2; --contra-bd: #fecaca;
+    --recon: #b45309;  --recon-bg: #fffbeb;  --recon-bd: #fde68a;
+    --info-bg: #eef2ff; --info-bd: #c7d2fe; --info-fg: #3730a3;
+    --mono: ui-monospace, "SF Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.45;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* ---------- header ---------- */
+  header {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+  .brand h1 {
+    font-size: 15px;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    margin: 0;
+  }
+  .brand .sub {
+    color: var(--muted);
+    font-size: 12px;
+    margin-top: 2px;
+  }
+  #stats { display: flex; gap: 22px; align-items: center; }
+  .stat { display: flex; flex-direction: column; line-height: 1.25; }
+  .stat-val {
+    font-size: 15px;
+    font-weight: 650;
+    font-variant-numeric: tabular-nums;
+  }
+  .stat-val.corr { color: var(--corr); }
+  .stat-val.contra { color: var(--contra); }
+  .stat-val.recon { color: var(--recon); }
+  .stat-lbl {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  /* ---------- nav ---------- */
+  nav {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 0 24px;
+    display: flex;
+    gap: 2px;
+  }
+  nav button {
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: var(--muted);
+    padding: 11px 14px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 550;
+    font-family: inherit;
+  }
+  nav button:hover { color: var(--text); }
+  nav button.active { color: var(--text); border-bottom-color: var(--text); }
+
+  main { padding: 22px 24px; max-width: 1180px; margin: 0 auto; }
+
+  /* ---------- panels / layout ---------- */
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .section-note { color: var(--muted); font-size: 12.5px; margin: 0 0 12px; max-width: 70ch; }
+
+  /* ---------- form controls ---------- */
+  input, select {
+    background: var(--panel);
+    border: 1px solid var(--border-strong);
+    color: var(--text);
+    padding: 7px 9px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-family: inherit;
+  }
+  input::placeholder { color: #a1a1aa; }
+  input:focus, select:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(47, 75, 216, 0.12);
+  }
+  button.btn {
+    background: var(--panel);
+    border: 1px solid var(--border-strong);
+    color: var(--text);
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 550;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  button.btn:hover { background: var(--panel2); }
+  button.primary {
+    background: var(--text);
+    border-color: var(--text);
+    color: #fff;
+  }
+  button.primary:hover { background: #000; }
+
+  /* ---------- tables ---------- */
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th {
+    text-align: left;
+    padding: 8px 10px;
+    color: var(--muted);
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid var(--border-strong);
+    white-space: nowrap;
+  }
+  td {
+    text-align: left;
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tr.clickable { cursor: pointer; }
+  tr.clickable:hover { background: var(--panel2); }
+  td.num { font-variant-numeric: tabular-nums; }
+  td.mono, .mono { font-family: var(--mono); font-size: 12px; }
+
+  /* ---------- badges / pills ---------- */
+  .badge {
+    display: inline-block;
+    padding: 2px 7px;
+    border-radius: 4px;
+    font-size: 10.5px;
+    font-weight: 650;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    white-space: nowrap;
+  }
+  .badge.pending, .badge.processing { background: var(--info-bg); color: var(--info-fg); border-color: var(--info-bd); }
+  .badge.done { background: var(--corr-bg); color: var(--corr); border-color: var(--corr-bd); }
+  .badge.error { background: var(--contra-bg); color: var(--contra); border-color: var(--contra-bd); }
+  .badge.CORROBORATES { background: var(--corr-bg); color: var(--corr); border-color: var(--corr-bd); }
+  .badge.CONTRADICTS { background: var(--contra-bg); color: var(--contra); border-color: var(--contra-bd); }
+  .badge.RECONCILABLE_CONTEXT { background: var(--recon-bg); color: var(--recon); border-color: var(--recon-bd); }
+  .pill {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 11px;
+    padding: 1px 6px;
+    border-radius: 4px;
+    background: var(--panel2);
+    color: var(--muted);
+    border: 1px solid var(--border);
+  }
+  .g-yes { color: var(--corr); font-family: var(--mono); font-size: 11.5px; }
+  .g-no  { color: var(--recon); font-family: var(--mono); font-size: 11.5px; }
+
+  /* ---------- evidence quote ---------- */
+  .quote {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-left: 2px solid var(--accent);
+    padding: 8px 10px;
+    margin: 8px 0;
+    font-family: var(--mono);
+    font-size: 12px;
+    line-height: 1.5;
+    color: #3f3f46;
+    white-space: pre-wrap;
+    border-radius: 0 5px 5px 0;
+  }
+
+  .muted { color: var(--muted); }
+  .empty { color: var(--muted); padding: 28px; text-align: center; font-size: 13px; }
+
+  /* ---------- upload ---------- */
+  .drop {
+    border: 1px dashed var(--border-strong);
+    border-radius: 6px;
+    padding: 28px;
+    text-align: center;
+    color: var(--muted);
+    background: var(--panel2);
+    font-size: 13px;
+  }
+  .drop.drag { border-color: var(--accent); color: var(--text); background: #eef2ff; }
+  .browse {
+    display: inline-block;
+    border: 1px solid var(--border-strong);
+    background: var(--panel);
+    color: var(--text);
+    padding: 4px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 550;
+  }
+  .browse:hover { background: var(--panel2); }
+
+  /* ---------- relation cards ---------- */
+  .fact-card {
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    padding: 12px;
+  }
+  .fact-card h4 {
+    margin: 0 0 6px;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--muted);
+    text-transform: none;
+  }
+  .explain {
+    margin-top: 10px;
+    padding: 10px 12px;
+    background: var(--panel2);
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    font-size: 12.5px;
+    line-height: 1.5;
+  }
+  .explain b { font-weight: 650; }
+
+  .footer-note {
+    color: var(--muted);
+    font-size: 11.5px;
+    margin-top: 22px;
+    padding-top: 14px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+
+  /* ---------- detail drawer ---------- */
+  #drawerBackdrop {
+    position: fixed; inset: 0;
+    background: rgba(9, 9, 11, 0.25);
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.15s ease;
+    z-index: 40;
+  }
+  #drawerBackdrop.open { opacity: 1; pointer-events: auto; }
+  #drawer {
+    position: fixed; top: 0; right: 0; height: 100%;
+    width: min(440px, 92vw);
+    background: var(--panel);
+    border-left: 1px solid var(--border);
+    box-shadow: -8px 0 24px rgba(0, 0, 0, 0.08);
+    transform: translateX(100%);
+    transition: transform 0.18s ease;
+    overflow-y: auto;
+    z-index: 41;
+  }
+  #drawer.open { transform: none; }
+  .drawer-head {
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 12px;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; background: var(--panel);
+  }
+  .drawer-head h3 { margin: 0; font-size: 13px; font-weight: 650; }
+  .drawer-head button {
+    background: none; border: none; cursor: pointer;
+    font-size: 18px; line-height: 1; color: var(--muted); padding: 0;
+  }
+  .drawer-head button:hover { color: var(--text); }
+  .drawer-body { padding: 18px; }
+  .drawer-body p.stmt { font-size: 13px; line-height: 1.55; margin: 0 0 4px; }
+  dl.kv {
+    display: grid;
+    grid-template-columns: 96px 1fr;
+    gap: 7px 12px;
+    font-size: 12.5px;
+    margin: 14px 0 0;
+  }
+  dl.kv dt { color: var(--muted); }
+  dl.kv dd { margin: 0; font-family: var(--mono); font-size: 12px; word-break: break-word; }
+
+  @media (max-width: 720px) {
+    .grid2 { grid-template-columns: 1fr; }
+    #stats { gap: 16px; }
+    header { gap: 12px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <h1>Fact Knowledge Layer</h1>
+    <div class="sub">Extract, ground, and cross-check facts across PDF documents</div>
+  </div>
+  <div id="stats"></div>
+</header>
+
+<nav id="tabs">
+  <button data-tab="upload" class="active">Upload</button>
+  <button data-tab="documents">Documents</button>
+  <button data-tab="facts">Facts</button>
+  <button data-tab="relations">Relations</button>
+  <button data-tab="schema">Schema</button>
+</nav>
+
+<main>
+  <section id="tab-upload">
+    <div class="panel">
+      <div class="drop" id="drop">
+        Drop PDF file(s) here, or <span class="browse">browse<input type="file" id="fileInput" accept="application/pdf" multiple style="display:none"></span>
+        <div style="margin-top:10px;font-size:12px">Each PDF is parsed, chunked, and sent to the model for fact extraction, then compared against everything already in the knowledge layer.</div>
+      </div>
+      <div id="uploadLog" style="margin-top:14px"></div>
+    </div>
+  </section>
+
+  <section id="tab-documents" style="display:none">
+    <div class="panel">
+      <table>
+        <thead><tr><th>Document</th><th>Status</th><th>Pages</th><th>Chunks</th><th>Facts</th><th>Uploaded</th></tr></thead>
+        <tbody id="docsTable"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="tab-facts" style="display:none">
+    <div class="panel">
+      <div class="row" style="margin-bottom:12px">
+        <input id="factSearch" placeholder="Search statement or quote" style="flex:1;min-width:200px">
+        <input id="factEntity" placeholder="Entity contains" style="width:170px">
+        <select id="factDoc"><option value="">All documents</option></select>
+        <button class="btn" id="factRefresh">Apply</button>
+      </div>
+      <table>
+        <thead><tr><th>Entity</th><th>Attribute</th><th>Value</th><th>Scope</th><th>Type</th><th>Grounding</th><th>Page</th></tr></thead>
+        <tbody id="factsTable"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="tab-relations" style="display:none">
+    <div class="panel">
+      <div class="row" style="margin-bottom:12px">
+        <select id="relType">
+          <option value="">All relation types</option>
+          <option value="CORROBORATES">Corroborates</option>
+          <option value="CONTRADICTS">Contradicts</option>
+          <option value="RECONCILABLE_CONTEXT">Reconcilable (context)</option>
+        </select>
+        <button class="btn" id="relRefresh">Apply</button>
+      </div>
+      <div id="relList"></div>
+    </div>
+  </section>
+
+  <section id="tab-schema" style="display:none">
+    <div class="panel">
+      <p class="section-note">Attribute keys observed so far. <b>core</b> fields exist on every fact; <b>dynamic</b> fields are the open-ended extras each extraction call chose to keep for a given document &mdash; this is how the schema grows as new kinds of documents show up, with no code change.</p>
+      <table>
+        <thead><tr><th>Key</th><th>Kind</th><th>Seen</th><th>Example value</th></tr></thead>
+        <tbody id="schemaTable"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <div class="footer-note">Fact Knowledge Layer &mdash; prototype built for the Superjoin engineering intern assignment</div>
+</main>
+
+<div id="drawerBackdrop"></div>
+<aside id="drawer" aria-hidden="true">
+  <div class="drawer-head">
+    <h3 id="drawerTitle">Fact</h3>
+    <button id="drawerClose" aria-label="Close">&times;</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+</aside>
+
+<script>
+const API = "/api";
+
+function el(html) {
+  const t = document.createElement("template");
+  t.innerHTML = html.trim();
+  return t.content.firstChild;
+}
+function esc(s) {
+  if (s === null || s === undefined) return "";
+  return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+function fmtDate(s) { if(!s) return ""; try { return new Date(s).toLocaleString(); } catch { return s; } }
+
+// ---- tabs ----
+document.querySelectorAll("nav button").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll("nav button").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    document.querySelectorAll("main > section").forEach(s => s.style.display = "none");
+    document.getElementById("tab-" + btn.dataset.tab).style.display = "block";
+    if (btn.dataset.tab === "documents") loadDocuments();
+    if (btn.dataset.tab === "facts") { loadDocOptions(); loadFacts(); }
+    if (btn.dataset.tab === "relations") loadRelations();
+    if (btn.dataset.tab === "schema") loadSchema();
+  });
+});
+
+// ---- stats ----
+async function loadStats() {
+  const s = await fetch(API + "/stats").then(r => r.json());
+  const rel = s.relations_by_type || {};
+  const stat = (val, lbl, cls) =>
+    `<div class="stat"><span class="stat-val ${cls||""}">${val}</span><span class="stat-lbl">${lbl}</span></div>`;
+  document.getElementById("stats").innerHTML =
+    stat(s.documents, "Documents") +
+    stat(`${s.facts}`, `Facts · ${s.facts_grounded} grounded`) +
+    stat(rel.CORROBORATES || 0, "Corroborates", "corr") +
+    stat(rel.CONTRADICTS || 0, "Contradicts", "contra") +
+    stat(rel.RECONCILABLE_CONTEXT || 0, "Reconcilable", "recon");
+}
+
+// ---- upload ----
+const drop = document.getElementById("drop");
+const fileInput = document.getElementById("fileInput");
+["dragover","dragenter"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add("drag"); }));
+["dragleave","drop"].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove("drag"); }));
+drop.addEventListener("drop", e => handleFiles(e.dataTransfer.files));
+fileInput.addEventListener("change", e => handleFiles(e.target.files));
+
+async function handleFiles(files) {
+  const log = document.getElementById("uploadLog");
+  for (const f of files) {
+    const entry = el(`<div class="panel" style="margin-bottom:8px"><b>${esc(f.name)}</b> <span class="badge pending">uploading</span></div>`);
+    log.prepend(entry);
+    const fd = new FormData();
+    fd.append("file", f);
+    try {
+      const res = await fetch(API + "/documents", { method: "POST", body: fd });
+      const data = await res.json();
+      pollDoc(data.id, entry);
+    } catch (e) {
+      entry.innerHTML += `<div style="color:var(--contra);margin-top:6px">Upload failed: ${esc(e)}</div>`;
+    }
+  }
+  loadStats();
+}
+
+function switchToDoc(id) {
+  document.querySelector('nav button[data-tab="documents"]').click();
+}
+
+async function pollDoc(id, entry) {
+  const iv = setInterval(async () => {
+    const d = await fetch(API + "/documents/" + id).then(r => r.json());
+    const doc = d.document;
+    let badgeHtml = `<span class="badge ${doc.status}">${doc.status}</span>`;
+    let progress = doc.chunk_count ? ` ${doc.chunks_processed || 0}/${doc.chunk_count} chunks · ${doc.fact_count || 0} facts` : "";
+    entry.innerHTML = `<b>${esc(doc.filename)}</b> ${badgeHtml}<span class="muted">${progress}</span>`;
+    if (doc.status === "done" || doc.status === "error") {
+      clearInterval(iv);
+      if (doc.status === "error") entry.innerHTML += `<div style="color:var(--contra);margin-top:6px">${esc(doc.error||"")}</div>`;
+      loadStats();
+    }
+  }, 2000);
+}
+
+// ---- documents ----
+async function loadDocuments() {
+  const docs = await fetch(API + "/documents").then(r => r.json());
+  const tbody = document.getElementById("docsTable");
+  tbody.innerHTML = docs.map(d => `
+    <tr>
+      <td>${esc(d.filename)}</td>
+      <td><span class="badge ${d.status}">${d.status}</span></td>
+      <td class="num">${d.page_count ?? "-"}</td>
+      <td class="num">${d.chunks_processed ?? 0}/${d.chunk_count ?? 0}</td>
+      <td class="num">${d.fact_count ?? 0}</td>
+      <td class="muted">${fmtDate(d.uploaded_at)}</td>
+    </tr>
+  `).join("") || `<tr><td colspan="6" class="empty">No documents yet</td></tr>`;
+}
+
+// ---- facts ----
+async function loadDocOptions() {
+  const docs = await fetch(API + "/documents").then(r => r.json());
+  const sel = document.getElementById("factDoc");
+  const cur = sel.value;
+  sel.innerHTML = `<option value="">All documents</option>` + docs.map(d => `<option value="${d.id}">${esc(d.filename)}</option>`).join("");
+  sel.value = cur;
+}
+
+async function loadFacts() {
+  const params = new URLSearchParams();
+  const q = document.getElementById("factSearch").value.trim();
+  const entity = document.getElementById("factEntity").value.trim();
+  const docId = document.getElementById("factDoc").value;
+  if (q) params.set("q", q);
+  if (entity) params.set("entity", entity);
+  if (docId) params.set("document_id", docId);
+  const facts = await fetch(API + "/facts?" + params.toString()).then(r => r.json());
+  const tbody = document.getElementById("factsTable");
+  tbody.innerHTML = facts.map(f => `
+    <tr class="clickable" onclick='showFact(${JSON.stringify(f.id)})'>
+      <td>${esc(f.entity_raw)}</td>
+      <td>${esc(f.attribute_raw)}</td>
+      <td class="mono">${esc(f.value)}${f.unit ? " " + esc(f.unit) : ""}</td>
+      <td class="muted">${esc(f.temporal_scope || "")}</td>
+      <td><span class="pill">${esc(f.fact_type)}</span></td>
+      <td>${f.grounded ? '<span class="g-yes">grounded</span>' : '<span class="g-no">ungrounded</span>'}</td>
+      <td class="num muted">${f.page_start}</td>
+    </tr>
+  `).join("") || `<tr><td colspan="7" class="empty">No facts match</td></tr>`;
+}
+document.getElementById("factRefresh").addEventListener("click", loadFacts);
+
+// ---- detail drawer ----
+function openDrawer() {
+  document.getElementById("drawer").classList.add("open");
+  document.getElementById("drawer").setAttribute("aria-hidden", "false");
+  document.getElementById("drawerBackdrop").classList.add("open");
+}
+function closeDrawer() {
+  document.getElementById("drawer").classList.remove("open");
+  document.getElementById("drawer").setAttribute("aria-hidden", "true");
+  document.getElementById("drawerBackdrop").classList.remove("open");
+}
+document.getElementById("drawerClose").addEventListener("click", closeDrawer);
+document.getElementById("drawerBackdrop").addEventListener("click", closeDrawer);
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeDrawer(); });
+
+async function showFact(id) {
+  const f = await fetch(API + "/facts/" + id).then(r => r.json());
+  document.getElementById("drawerTitle").textContent = `${f.entity_raw} · ${f.attribute_raw}`;
+  const extra = f.attributes && Object.keys(f.attributes).length
+    ? `<dt>Extra</dt><dd>${esc(JSON.stringify(f.attributes))}</dd>` : "";
+  const relLine = f.relations && f.relations.length
+    ? `<p class="muted" style="margin-top:16px;font-size:12px">${f.relations.length} related fact${f.relations.length > 1 ? "s" : ""} &mdash; see the Relations tab</p>` : "";
+  document.getElementById("drawerBody").innerHTML = `
+    <p class="stmt">${esc(f.statement)}</p>
+    <div class="quote">${esc(f.quote)}</div>
+    <dl class="kv">
+      <dt>Value</dt><dd>${esc(f.value)}${f.unit ? " " + esc(f.unit) : ""}</dd>
+      <dt>Numeric</dt><dd>${f.value_numeric ?? "—"}</dd>
+      <dt>Scope</dt><dd>${esc(f.temporal_scope || "—")}</dd>
+      <dt>Type</dt><dd>${esc(f.fact_type)}</dd>
+      <dt>Source</dt><dd>${esc(f.document ? f.document.filename : "?")}, p.${f.page_start}</dd>
+      <dt>Confidence</dt><dd>${f.confidence}</dd>
+      <dt>Grounded</dt><dd>${f.grounded ? "yes" : "no — quote not found in source text"}</dd>
+      ${extra}
+    </dl>
+    ${relLine}
+  `;
+  openDrawer();
+}
+
+// ---- relations ----
+async function loadRelations() {
+  const type = document.getElementById("relType").value;
+  const params = new URLSearchParams();
+  if (type) params.set("relation_type", type);
+  const rels = await fetch(API + "/relations?" + params.toString()).then(r => r.json());
+  const container = document.getElementById("relList");
+  if (!rels.length) { container.innerHTML = `<div class="empty">No relations yet &mdash; ingest more than one document to see cross-document comparisons.</div>`; return; }
+  container.innerHTML = rels.map(r => relationCard(r)).join("");
+}
+document.getElementById("relRefresh").addEventListener("click", loadRelations);
+
+function factCard(f, label) {
+  if (!f) return `<div class="fact-card"><h4>${label}</h4><span class="muted">missing</span></div>`;
+  return `
+    <div class="fact-card">
+      <h4>${label} — ${esc(f.document ? f.document.filename : "")}, p.${f.page_start}</h4>
+      <div style="font-size:13px">${esc(f.statement)}</div>
+      <div class="quote">${esc(f.quote)}</div>
+      <div class="muted mono" style="font-size:11px">${esc(f.entity_raw)} / ${esc(f.attribute_raw)} = ${esc(f.value)}${f.unit?" "+esc(f.unit):""} ${f.temporal_scope? "("+esc(f.temporal_scope)+")":""}</div>
+    </div>`;
+}
+
+function relationCard(r) {
+  return `
+    <div class="panel">
+      <div class="row" style="justify-content:space-between">
+        <span class="badge ${r.relation_type}">${r.relation_type.replace("_"," ")}</span>
+        <span class="muted mono" style="font-size:11px">confidence ${r.confidence?.toFixed(2)}</span>
+      </div>
+      <div class="grid2" style="margin-top:10px">
+        ${factCard(r.fact_a, "A")}
+        ${factCard(r.fact_b, "B")}
+      </div>
+      <div class="explain"><b>Why:</b> ${esc(r.explanation)}</div>
+    </div>`;
+}
+
+// ---- schema ----
+async function loadSchema() {
+  const rows = await fetch(API + "/schema").then(r => r.json());
+  document.getElementById("schemaTable").innerHTML = rows.map(s => `
+    <tr>
+      <td class="mono">${esc(s.attribute_key)}</td>
+      <td><span class="pill">${esc(s.kind)}</span></td>
+      <td class="num">${s.observed_count}</td>
+      <td class="muted">${esc(s.example_value || "")}</td>
+    </tr>
+  `).join("") || `<tr><td colspan="4" class="empty">No facts extracted yet</td></tr>`;
+}
+
+loadStats();
+setInterval(loadStats, 5000);
+</script>
+</body>
+</html>
