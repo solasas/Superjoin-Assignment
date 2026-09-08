@@ -129,7 +129,7 @@ FY2024-25 (6.5%, RBI vs. IMF) matched the same way.
 
 **Two postal codes for the same street address.**
 
-- **A** — *2022 IPO Prospectus*, p.30 — quote: *"Plot 5, Sector 44\nGurugram 122002\nHaryana, India"*
+- **A** — *2022 IPO Prospectus*, p.30 — quote: *"Plot 5, Sector 44 / Gurugram 122002 / Haryana, India"* (three lines in the source)
 - **B** — *FY24 Annual Report* (BRSR), p.51 — quote: *"Plot No. 5, Sector 44, Gurugram, Haryana 122001"*
 
 **`CONTRADICTS`** (confidence 0.85):
