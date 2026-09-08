@@ -1,0 +1,68 @@
+[
+  {
+    "id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "filename": "01-delhivery-prospectus-2022-excerpt.pdf",
+    "title": "01-delhivery-prospectus-2022-excerpt.pdf",
+    "status": "done",
+    "page_count": 100,
+    "chunk_count": 2,
+    "fact_count": 68,
+    "uploaded_at": "2026-09-07T06:51:20.404532+00:00",
+    "processed_at": "2026-09-07T06:53:29.769366+00:00"
+  },
+  {
+    "id": "4681f427-e718-492c-8576-04314a648b01",
+    "filename": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+    "title": "03-delhivery-q4-fy24-earnings-presentation.pdf",
+    "status": "done",
+    "page_count": 27,
+    "chunk_count": 2,
+    "fact_count": 72,
+    "uploaded_at": "2026-09-07T06:53:29.770100+00:00",
+    "processed_at": "2026-09-07T06:56:48.670054+00:00"
+  },
+  {
+    "id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "filename": "02-delhivery-annual-report-fy24-excerpt.pdf",
+    "title": "02-delhivery-annual-report-fy24-excerpt.pdf",
+    "status": "done",
+    "page_count": 100,
+    "chunk_count": 3,
+    "fact_count": 113,
+    "uploaded_at": "2026-09-07T06:56:48.672075+00:00",
+    "processed_at": "2026-09-07T07:08:59.830197+00:00"
+  },
+  {
+    "id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "filename": "01-india-economic-survey-2024-25-excerpt.pdf",
+    "title": "01-india-economic-survey-2024-25-excerpt.pdf",
+    "status": "done",
+    "page_count": 89,
+    "chunk_count": 3,
+    "fact_count": 47,
+    "uploaded_at": "2026-09-07T07:08:59.830970+00:00",
+    "processed_at": "2026-09-07T07:14:13.155670+00:00"
+  },
+  {
+    "id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "filename": "02-rbi-annual-report-2024-25-excerpt.pdf",
+    "title": "02-rbi-annual-report-2024-25-excerpt.pdf",
+    "status": "done",
+    "page_count": 100,
+    "chunk_count": 3,
+    "fact_count": 99,
+    "uploaded_at": "2026-09-07T07:14:13.156569+00:00",
+    "processed_at": "2026-09-07T07:28:34.804159+00:00"
+  },
+  {
+    "id": "c61d132a-775c-43c9-9136-26c4ba41479b",
+    "filename": "03-imf-india-2025-article-iv-excerpt.pdf",
+    "title": "03-imf-india-2025-article-iv-excerpt.pdf",
+    "status": "done",
+    "page_count": 95,
+    "chunk_count": 1,
+    "fact_count": 24,
+    "uploaded_at": "2026-09-07T07:28:34.804732+00:00",
+    "processed_at": "2026-09-07T07:46:03.085829+00:00"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "attribute_key": "core:entity_canonical",
+    "kind": "core",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.163116+00:00",
+    "observed_count": 423,
+    "example_value": "delhivery"
+  },
+  {
+    "attribute_key": "core:attribute_canonical",
+    "kind": "core",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.163741+00:00",
+    "observed_count": 423,
+    "example_value": "prospectus_date"
+  },
+  {
+    "attribute_key": "core:fact_type",
+    "kind": "core",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.164020+00:00",
+    "observed_count": 423,
+    "example_value": "date"
+  },
+  {
+    "attribute_key": "core:temporal_scope",
+    "kind": "core",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:53:29.743457+00:00",
+    "observed_count": 339,
+    "example_value": "June 22, 2011"
+  },
+  {
+    "attribute_key": "core:unit",
+    "kind": "core",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.167288+00:00",
+    "observed_count": 194,
+    "example_value": "shares"
+  },
+  {
+    "attribute_key": "extra:source",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:19:46.726408+00:00",
+    "observed_count": 50,
+    "example_value": "NSO"
+  },
+  {
+    "attribute_key": "extra:scope",
+    "kind": "dynamic",
+    "first_seen_document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "first_seen_at": "2026-09-07T06:54:47.374090+00:00",
+    "observed_count": 36,
+    "example_value": "excluding revenue from traded goods"
+  },
+  {
+    "attribute_key": "extra:din",
+    "kind": "dynamic",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:53:29.752314+00:00",
+    "observed_count": 15,
+    "example_value": "00162957"
+  },
+  {
+    "attribute_key": "extra:type",
+    "kind": "dynamic",
+    "first_seen_document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "first_seen_at": "2026-09-07T06:56:12.426122+00:00",
+    "observed_count": 12,
+    "example_value": "constellation_BAs"
+  },
+  {
+    "attribute_key": "extra:definition",
+    "kind": "dynamic",
+    "first_seen_document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "first_seen_at": "2026-09-07T06:56:12.432101+00:00",
+    "observed_count": 11,
+    "example_value": "Includes permanent employees and contractual workers (excluding partner agents, daily wage manpower and security guards) as of the last day of the relevant period"
+  },
+  {
+    "attribute_key": "extra:country",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:10:37.109444+00:00",
+    "observed_count": 11,
+    "example_value": "India"
+  },
+  {
+    "attribute_key": "extra:basis",
+    "kind": "dynamic",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.172294+00:00",
+    "observed_count": 10,
+    "example_value": "fully diluted"
+  },
+  {
+    "attribute_key": "extra:role",
+    "kind": "dynamic",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.184631+00:00",
+    "observed_count": 8,
+    "example_value": "book_running_lead_manager"
+  },
+  {
+    "attribute_key": "extra:organization",
+    "kind": "dynamic",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:53:29.752549+00:00",
+    "observed_count": 8,
+    "example_value": "delhivery"
+  },
+  {
+    "attribute_key": "extra:reason",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:01:43.881076+00:00",
+    "observed_count": 8,
+    "example_value": "resignation"
+  },
+  {
+    "attribute_key": "extra:amount_inr_mn",
+    "kind": "dynamic",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.171378+00:00",
+    "observed_count": 7,
+    "example_value": "4540"
+  },
+  {
+    "attribute_key": "extra:subject_to_finalization",
+    "kind": "dynamic",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.171560+00:00",
+    "observed_count": 7,
+    "example_value": "True"
+  },
+  {
+    "attribute_key": "extra:percentage",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.690564+00:00",
+    "observed_count": 4,
+    "example_value": "92.15"
+  },
+  {
+    "attribute_key": "extra:note",
+    "kind": "dynamic",
+    "first_seen_document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "first_seen_at": "2026-09-07T06:52:33.167450+00:00",
+    "observed_count": 3,
+    "example_value": "subject to finalization of basis of allotment"
+  },
+  {
+    "attribute_key": "extra:qualifier",
+    "kind": "dynamic",
+    "first_seen_document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "first_seen_at": "2026-09-07T06:54:47.378550+00:00",
+    "observed_count": 3,
+    "example_value": "at least"
+  },
+  {
+    "attribute_key": "extra:location",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T06:59:23.777370+00:00",
+    "observed_count": 3,
+    "example_value": "India"
+  },
+  {
+    "attribute_key": "extra:status",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T06:59:23.781261+00:00",
+    "observed_count": 3,
+    "example_value": "planned expansion"
+  },
+  {
+    "attribute_key": "extra:from_role",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:01:43.882292+00:00",
+    "observed_count": 3,
+    "example_value": "Head of Treasury and Investor Relations"
+  },
+  {
+    "attribute_key": "extra:to_role",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:01:43.882400+00:00",
+    "observed_count": 3,
+    "example_value": "SVP - Business Development"
+  },
+  {
+    "attribute_key": "extra:investor",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T06:59:23.784276+00:00",
+    "observed_count": 2,
+    "example_value": "delhivery"
+  },
+  {
+    "attribute_key": "extra:investee",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T06:59:23.785576+00:00",
+    "observed_count": 2,
+    "example_value": "vinculum"
+  },
+  {
+    "attribute_key": "extra:parent",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T06:59:23.790648+00:00",
+    "observed_count": 2,
+    "example_value": "delhivery"
+  },
+  {
+    "attribute_key": "extra:previous_role",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:01:43.881803+00:00",
+    "observed_count": 2,
+    "example_value": "Head of Business Development"
+  },
+  {
+    "attribute_key": "extra:timing",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:01:43.886369+00:00",
+    "observed_count": 2,
+    "example_value": "post-FY24"
+  },
+  {
+    "attribute_key": "extra:gender_breakdown",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.696439+00:00",
+    "observed_count": 2,
+    "example_value": "all male"
+  },
+  {
+    "attribute_key": "extra:price_basis",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:12:08.038200+00:00",
+    "observed_count": 2,
+    "example_value": "constant 2011-12 prices"
+  },
+  {
+    "attribute_key": "extra:measurement_basis",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:19:46.757916+00:00",
+    "observed_count": 2,
+    "example_value": "year_on_year"
+  },
+  {
+    "attribute_key": "extra:sample_size",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:19:46.764155+00:00",
+    "observed_count": 2,
+    "example_value": "22"
+  },
+  {
+    "attribute_key": "extra:partners",
+    "kind": "dynamic",
+    "first_seen_document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "first_seen_at": "2026-09-07T06:56:12.442324+00:00",
+    "observed_count": 1,
+    "example_value": "['FedEx', 'Aramex']"
+  },
+  {
+    "attribute_key": "extra:event",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:01:43.895702+00:00",
+    "observed_count": 1,
+    "example_value": "12th_AGM"
+  },
+  {
+    "attribute_key": "extra:location_type",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.677484+00:00",
+    "observed_count": 1,
+    "example_value": "registered_office"
+  },
+  {
+    "attribute_key": "extra:total_members",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.699144+00:00",
+    "observed_count": 1,
+    "example_value": "9"
+  },
+  {
+    "attribute_key": "extra:female_members",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.699365+00:00",
+    "observed_count": 1,
+    "example_value": "1"
+  },
+  {
+    "attribute_key": "extra:female_percentage",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.699538+00:00",
+    "observed_count": 1,
+    "example_value": "11.11"
+  },
+  {
+    "attribute_key": "extra:total_kmp",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.700510+00:00",
+    "observed_count": 1,
+    "example_value": "6"
+  },
+  {
+    "attribute_key": "extra:female_kmp",
+    "kind": "dynamic",
+    "first_seen_document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "first_seen_at": "2026-09-07T07:02:58.700716+00:00",
+    "observed_count": 1,
+    "example_value": "0"
+  },
+  {
+    "attribute_key": "extra:survey_name",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:12:08.041587+00:00",
+    "observed_count": 1,
+    "example_value": "Rural Economic Conditions and Sentiments Survey"
+  },
+  {
+    "attribute_key": "extra:survey_source",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:12:08.041739+00:00",
+    "observed_count": 1,
+    "example_value": "NABARD"
+  },
+  {
+    "attribute_key": "extra:survey_date",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:12:08.041922+00:00",
+    "observed_count": 1,
+    "example_value": "January 2025"
+  },
+  {
+    "attribute_key": "extra:change_direction",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:14:12.878238+00:00",
+    "observed_count": 1,
+    "example_value": "reduction"
+  },
+  {
+    "attribute_key": "extra:lower_bound",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:14:12.878745+00:00",
+    "observed_count": 1,
+    "example_value": "2"
+  },
+  {
+    "attribute_key": "extra:upper_bound",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:14:12.878856+00:00",
+    "observed_count": 1,
+    "example_value": "6"
+  },
+  {
+    "attribute_key": "extra:midpoint",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:14:12.878952+00:00",
+    "observed_count": 1,
+    "example_value": "4"
+  },
+  {
+    "attribute_key": "extra:observation_source",
+    "kind": "dynamic",
+    "first_seen_document_id": "2156f776-f8f0-4500-9c0d-50c5cc342687",
+    "first_seen_at": "2026-09-07T07:14:12.880637+00:00",
+    "observed_count": 1,
+    "example_value": "chart"
+  },
+  {
+    "attribute_key": "extra:period",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:15:29.942638+00:00",
+    "observed_count": 1,
+    "example_value": "2000-2019"
+  },
+  {
+    "attribute_key": "extra:nature",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:15:29.946114+00:00",
+    "observed_count": 1,
+    "example_value": "forecast"
+  },
+  {
+    "attribute_key": "extra:end_of_year",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:15:29.947711+00:00",
+    "observed_count": 1,
+    "example_value": "March 31, 2025"
+  },
+  {
+    "attribute_key": "extra:minimum",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:15:29.948617+00:00",
+    "observed_count": 1,
+    "example_value": "10"
+  },
+  {
+    "attribute_key": "extra:target_year",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:17:31.041480+00:00",
+    "observed_count": 1,
+    "example_value": "2047"
+  },
+  {
+    "attribute_key": "extra:change_magnitude_bps",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:17:31.048324+00:00",
+    "observed_count": 1,
+    "example_value": "73"
+  },
+  {
+    "attribute_key": "extra:vote_unanimity",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:17:31.051799+00:00",
+    "observed_count": 1,
+    "example_value": "unanimous"
+  },
+  {
+    "attribute_key": "extra:rate_reduction_bps",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:17:31.051967+00:00",
+    "observed_count": 1,
+    "example_value": "25"
+  },
+  {
+    "attribute_key": "extra:ordinal_number",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:17:31.052882+00:00",
+    "observed_count": 1,
+    "example_value": "fourth"
+  },
+  {
+    "attribute_key": "extra:currency",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:17:31.053040+00:00",
+    "observed_count": 1,
+    "example_value": "INR"
+  },
+  {
+    "attribute_key": "extra:measurement",
+    "kind": "dynamic",
+    "first_seen_document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "first_seen_at": "2026-09-07T07:19:46.761902+00:00",
+    "observed_count": 1,
+    "example_value": "GCF to GDP at current prices"
+  }
+]

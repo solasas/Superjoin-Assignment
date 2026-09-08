@@ -1,0 +1,884 @@
+[
+  {
+    "id": "2189b3dc-fbd3-4aed-a0fe-08c1df40136d",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "N24-N34, S24-S34, Plot 5, Sector 44, Gurugram 122002 Haryan a, India",
+    "raw": "{\"statement\": \"Delhivery Limited's registered office is at N24-N34, S24-S34, Plot 5, Sector 44, Gurugram 122002, Haryana, India.\", \"entity_raw\": \"DELHIVERY LIMITED\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"registered office address\", \"attribute_canonical\": \"registered_office_address\", \"value\": \"N24-N34, S24-S34, Plot 5, Sector 44, Gurugram 122002, Haryana, India\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"N24-N34, S24-S34, Plot 5, Sector 44, Gurugram 122002 Haryan a, India\", \"page\": 1, \"confidence\": 0.97, \"extra\": {}}",
+    "created_at": "2026-09-07T06:52:32.932951+00:00"
+  },
+  {
+    "id": "58ea818d-3fd5-483d-8d83-24b3321d09f0",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037",
+    "raw": "{\"statement\": \"Delhivery Limited's corporate contact office is at Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037.\", \"entity_raw\": \"DELHIVERY LIMITED\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"corporate contact office address\", \"attribute_canonical\": \"corporate_contact_office_address\", \"value\": \"Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037, Delhi, India\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037\", \"page\": 1, \"confidence\": 0.97, \"extra\": {}}",
+    "created_at": "2026-09-07T06:52:32.998720+00:00"
+  },
+  {
+    "id": "308c225b-5367-40ab-8462-324bf27e6ccc",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "WEBSITE www.delhivery.com",
+    "raw": "{\"statement\": \"Delhivery Limited's website is www.delhivery.com.\", \"entity_raw\": \"DELHIVERY LIMITED\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"website\", \"attribute_canonical\": \"website\", \"value\": \"www.delhivery.com\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"WEBSITE www.delhivery.com\", \"page\": 1, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:52:33.030819+00:00"
+  },
+  {
+    "id": "8a1b1b88-78e3-4822-8ff7-ab27631b60d4",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Fresh issue of 82,152,503* Equity Shares",
+    "raw": "{\"statement\": \"The fresh issue size is 82,152,503 equity shares.\", \"entity_raw\": \"DELHIVERY LIMITED\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"fresh issue number of shares\", \"attribute_canonical\": \"fresh_issue_number_of_shares\", \"value\": \"82,152,503\", \"value_numeric\": 82152503, \"unit\": \"shares\", \"temporal_scope\": null, \"fact_type\": \"numeric\", \"quote\": \"Fresh issue of 82,152,503* Equity Shares\", \"page\": 1, \"confidence\": 0.95, \"extra\": {\"note\": \"subject to finalization of basis of allotment\"}}",
+    "created_at": "2026-09-07T06:52:33.062800+00:00"
+  },
+  {
+    "id": "d09abe39-48b4-4bc1-a387-71b75b8fc44e",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Offer for sale of 25,364,585* Equity Shares",
+    "raw": "{\"statement\": \"The offer for sale size is 25,364,585 equity shares.\", \"entity_raw\": \"DELHIVERY LIMITED\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"offer for sale number of shares\", \"attribute_canonical\": \"offer_for_sale_number_of_shares\", \"value\": \"25,364,585\", \"value_numeric\": 25364585, \"unit\": \"shares\", \"temporal_scope\": null, \"fact_type\": \"numeric\", \"quote\": \"Offer for sale of 25,364,585* Equity Shares\", \"page\": 1, \"confidence\": 0.95, \"extra\": {\"note\": \"subject to finalization of basis of allotment\"}}",
+    "created_at": "2026-09-07T06:52:33.106804+00:00"
+  },
+  {
+    "id": "8dc1bc62-9a1a-4a95-b314-86b24521da69",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Offer for sale of Equity Shares aggregating to ₹12,350.00 million",
+    "raw": "{\"statement\": \"The offer for sale value is ₹12,350.00 million.\", \"entity_raw\": \"DELHIVERY LIMITED\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"offer for sale amount\", \"attribute_canonical\": \"offer_for_sale_amount\", \"value\": \"₹12,350.00 million\", \"value_numeric\": 12350, \"unit\": \"INR Mn\", \"temporal_scope\": null, \"fact_type\": \"numeric\", \"quote\": \"Offer for sale of Equity Shares aggregating to ₹12,350.00 million\", \"page\": 1, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:52:33.145404+00:00"
+  },
+  {
+    "id": "d45eb9a1-575e-4510-b462-8bb917c28436",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "House No. 367/4, B5 Plot No., Villa No. 9, Salvador Do Mundo Bardez, North Goa 403101 Goa, India",
+    "raw": "{\"statement\": \"Sahil Barua's address is House No. 367/4, B5 Plot No., Villa No. 9, Salvador Do Mundo Bardez, North Goa 403101, Goa, India.\", \"entity_raw\": \"Sahil Barua\", \"entity_canonical\": \"sahil_barua\", \"attribute_raw\": \"residential address\", \"attribute_canonical\": \"address\", \"value\": \"House No. 367/4, B5 Plot No., Villa No. 9, Salvador Do Mundo Bardez, North Goa 403101, Goa, India\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"House No. 367/4, B5 Plot No., Villa No. 9, Salvador Do Mundo Bardez, North Goa 403101 Goa, India\", \"page\": 30, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T06:53:29.657726+00:00"
+  },
+  {
+    "id": "8eec39a5-3e1a-42d9-a30c-c1c690779152",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "295 DDA Flats, Gulmohar Enclave, Andrewsganj S.O., South Delhi, Delhi 110049, India",
+    "raw": "{\"statement\": \"Kapil Bharati's address is 295 DDA Flats, Gulmohar Enclave, Andrewsganj S.O., South Delhi, Delhi 110049, India.\", \"entity_raw\": \"Kapil Bharati\", \"entity_canonical\": \"kapil_bharati\", \"attribute_raw\": \"residential address\", \"attribute_canonical\": \"address\", \"value\": \"295 DDA Flats, Gulmohar Enclave, Andrewsganj S.O., South Delhi, Delhi 110049, India\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"295 DDA Flats, Gulmohar Enclave, Andrewsganj S.O., South Delhi, Delhi 110049, India\", \"page\": 30, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T06:53:29.689902+00:00"
+  },
+  {
+    "id": "918413f1-380a-454e-a21c-a526ed549242",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "1895 Hazelton Dr, Germantown, TN 38138-2658 United States of America",
+    "raw": "{\"statement\": \"Donald Francis Colleran's address is 1895 Hazelton Dr, Germantown, TN 38138-2658, United States of America.\", \"entity_raw\": \"Donald Francis Colleran\", \"entity_canonical\": \"donald_francis_colleran\", \"attribute_raw\": \"residential address\", \"attribute_canonical\": \"address\", \"value\": \"1895 Hazelton Dr, Germantown, TN 38138-2658, United States of America\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"1895 Hazelton Dr, Germantown, TN 38138-2658 United States of America\", \"page\": 30, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T06:53:29.706850+00:00"
+  },
+  {
+    "id": "7858eea5-f5f1-4a6b-9273-14c7d29cf68f",
+    "document_id": "8015981b-a76d-466c-a242-beece6b8371f",
+    "chunk_id": "8015981b-a76d-466c-a242-beece6b8371f:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "3/7 Shree Sadan, Carmichael Road, Mumbai 400026, Maharashtra, India",
+    "raw": "{\"statement\": \"Suvir Suren Sujan's address is 3/7 Shree Sadan, Carmichael Road, Mumbai 400026, Maharashtra, India.\", \"entity_raw\": \"Suvir Suren Sujan\", \"entity_canonical\": \"suvir_suren_sujan\", \"attribute_raw\": \"residential address\", \"attribute_canonical\": \"address\", \"value\": \"3/7 Shree Sadan, Carmichael Road, Mumbai 400026, Maharashtra, India\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"3/7 Shree Sadan, Carmichael Road, Mumbai 400026, Maharashtra, India\", \"page\": 30, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T06:53:29.741195+00:00"
+  },
+  {
+    "id": "5d42886c-356e-4917-bf4f-bdb6453597e1",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY23\nNo. of Active Customers(3) 27,253",
+    "raw": "{\"statement\": \"Delhivery had 27,253 active customers as of Q4 FY23.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"active customers\", \"attribute_canonical\": \"active_customers\", \"value\": \"27,253\", \"value_numeric\": 27253, \"unit\": null, \"temporal_scope\": \"Q4 FY23\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY23\\nNo. of Active Customers(3) 27,253\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.233307+00:00"
+  },
+  {
+    "id": "c6595d9b-f7ea-4831-8a42-2afd42a20814",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nNo. of Active Customers(3) 30,598",
+    "raw": "{\"statement\": \"Delhivery had 30,598 active customers as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"active customers\", \"attribute_canonical\": \"active_customers\", \"value\": \"30,598\", \"value_numeric\": 30598, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nNo. of Active Customers(3) 30,598\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.239950+00:00"
+  },
+  {
+    "id": "e4f07f2b-c417-40b4-ba47-53fc0f2fd615",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY22\nGateways 123",
+    "raw": "{\"statement\": \"Delhivery had 123 gateways as of Q4 FY22.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"gateways\", \"attribute_canonical\": \"gateways\", \"value\": \"123\", \"value_numeric\": 123, \"unit\": null, \"temporal_scope\": \"Q4 FY22\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY22\\nGateways 123\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.251771+00:00"
+  },
+  {
+    "id": "97e4ec42-0805-40f0-b1c0-488d0c944c99",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY23\nGateways 94",
+    "raw": "{\"statement\": \"Delhivery had 94 gateways as of Q4 FY23.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"gateways\", \"attribute_canonical\": \"gateways\", \"value\": \"94\", \"value_numeric\": 94, \"unit\": null, \"temporal_scope\": \"Q4 FY23\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY23\\nGateways 94\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.258808+00:00"
+  },
+  {
+    "id": "3f1a8f4f-119a-4c2c-8f49-d31d3d0eb745",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nGateways 110",
+    "raw": "{\"statement\": \"Delhivery had 110 gateways as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"gateways\", \"attribute_canonical\": \"gateways\", \"value\": \"110\", \"value_numeric\": 110, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nGateways 110\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.264790+00:00"
+  },
+  {
+    "id": "67201239-a3db-4d9b-9f53-84e76437fa18",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY24\nGateways 111",
+    "raw": "{\"statement\": \"Delhivery had 111 gateways as of Q4 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"gateways\", \"attribute_canonical\": \"gateways\", \"value\": \"111\", \"value_numeric\": 111, \"unit\": null, \"temporal_scope\": \"Q4 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY24\\nGateways 111\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.270640+00:00"
+  },
+  {
+    "id": "4b92a862-6257-4805-861d-4c79c3c0f1ba",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nAutomated sort centers 30",
+    "raw": "{\"statement\": \"Delhivery had 30 automated sort centers as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"automated sort centers\", \"attribute_canonical\": \"automated_sort_centers\", \"value\": \"30\", \"value_numeric\": 30, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nAutomated sort centers 30\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.279563+00:00"
+  },
+  {
+    "id": "0c6e0692-4da8-445b-a870-2500b089a8f8",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nExpress delivery centers 3,404",
+    "raw": "{\"statement\": \"Delhivery had 3,404 express delivery centers as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"express delivery centers\", \"attribute_canonical\": \"express_delivery_centers\", \"value\": \"3,404\", \"value_numeric\": 3404, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nExpress delivery centers 3,404\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.299708+00:00"
+  },
+  {
+    "id": "2d1a1aaa-1d57-4e26-8b60-c1c9e8918caf",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY24\nExpress delivery centers 3,506",
+    "raw": "{\"statement\": \"Delhivery had 3,506 express delivery centers as of Q4 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"express delivery centers\", \"attribute_canonical\": \"express_delivery_centers\", \"value\": \"3,506\", \"value_numeric\": 3506, \"unit\": null, \"temporal_scope\": \"Q4 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY24\\nExpress delivery centers 3,506\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.306628+00:00"
+  },
+  {
+    "id": "d4c91db8-a727-486b-b93b-2f70de1f9343",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY22\nProcessing centers 178",
+    "raw": "{\"statement\": \"Delhivery had 178 processing centers as of Q4 FY22.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"processing centers\", \"attribute_canonical\": \"processing_centers\", \"value\": \"178\", \"value_numeric\": 178, \"unit\": null, \"temporal_scope\": \"Q4 FY22\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY22\\nProcessing centers 178\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.322940+00:00"
+  },
+  {
+    "id": "44736d4c-1ca7-4705-94af-33e76c7d4f83",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nProcessing centers 164",
+    "raw": "{\"statement\": \"Delhivery had 164 processing centers as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"processing centers\", \"attribute_canonical\": \"processing_centers\", \"value\": \"164\", \"value_numeric\": 164, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nProcessing centers 164\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.331999+00:00"
+  },
+  {
+    "id": "002010db-8afc-40a7-85c9-11bc94fa87d8",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY24\nProcessing centers 160",
+    "raw": "{\"statement\": \"Delhivery had 160 processing centers as of Q4 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"processing centers\", \"attribute_canonical\": \"processing_centers\", \"value\": \"160\", \"value_numeric\": 160, \"unit\": null, \"temporal_scope\": \"Q4 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY24\\nProcessing centers 160\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.338958+00:00"
+  },
+  {
+    "id": "5b6c4ddc-7afe-46ee-8465-64e6b1d406a9",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY23\nTeam size(4) 57,307",
+    "raw": "{\"statement\": \"Delhivery's team size was 57,307 as of Q4 FY23.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"team size\", \"attribute_canonical\": \"team_size\", \"value\": \"57,307\", \"value_numeric\": 57307, \"unit\": null, \"temporal_scope\": \"Q4 FY23\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY23\\nTeam size(4) 57,307\", \"page\": 8, \"confidence\": 0.99, \"extra\": {\"definition\": \"Includes permanent employees and contractual workers (excluding partner agents, daily wage manpower and security guards) as of the last day of the relevant period\"}}",
+    "created_at": "2026-09-07T06:56:12.348669+00:00"
+  },
+  {
+    "id": "d5152e5e-5cb4-46c6-b06f-23c769d571ce",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nTeam size(4) 63,144",
+    "raw": "{\"statement\": \"Delhivery's team size was 63,144 as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"team size\", \"attribute_canonical\": \"team_size\", \"value\": \"63,144\", \"value_numeric\": 63144, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nTeam size(4) 63,144\", \"page\": 8, \"confidence\": 0.99, \"extra\": {\"definition\": \"Includes permanent employees and contractual workers (excluding partner agents, daily wage manpower and security guards) as of the last day of the relevant period\"}}",
+    "created_at": "2026-09-07T06:56:12.355198+00:00"
+  },
+  {
+    "id": "d515183a-cbbe-4b87-bb10-8af10cd05417",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY24\nTeam size(4) 63,713",
+    "raw": "{\"statement\": \"Delhivery's team size was 63,713 as of Q4 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"team size\", \"attribute_canonical\": \"team_size\", \"value\": \"63,713\", \"value_numeric\": 63713, \"unit\": null, \"temporal_scope\": \"Q4 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY24\\nTeam size(4) 63,713\", \"page\": 8, \"confidence\": 0.99, \"extra\": {\"definition\": \"Includes permanent employees and contractual workers (excluding partner agents, daily wage manpower and security guards) as of the last day of the relevant period\"}}",
+    "created_at": "2026-09-07T06:56:12.361910+00:00"
+  },
+  {
+    "id": "2a2d1422-49f4-46c9-9fb8-7ca190044297",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY23\nPartner agents(5) 34,987",
+    "raw": "{\"statement\": \"Delhivery had 34,987 partner agents as of Q4 FY23.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"partner agents\", \"attribute_canonical\": \"partner_agents\", \"value\": \"34,987\", \"value_numeric\": 34987, \"unit\": null, \"temporal_scope\": \"Q4 FY23\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY23\\nPartner agents(5) 34,987\", \"page\": 8, \"confidence\": 0.99, \"extra\": {\"definition\": \"Count of last mile delivery partner agents in the last month of the relevant period\"}}",
+    "created_at": "2026-09-07T06:56:12.370358+00:00"
+  },
+  {
+    "id": "1475511f-19f4-451a-af50-77e2611d87a7",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nPartner agents(5) 37,172",
+    "raw": "{\"statement\": \"Delhivery had 37,172 partner agents as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"partner agents\", \"attribute_canonical\": \"partner_agents\", \"value\": \"37,172\", \"value_numeric\": 37172, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nPartner agents(5) 37,172\", \"page\": 8, \"confidence\": 0.99, \"extra\": {\"definition\": \"Count of last mile delivery partner agents in the last month of the relevant period\"}}",
+    "created_at": "2026-09-07T06:56:12.375963+00:00"
+  },
+  {
+    "id": "25aea3b9-2b43-454d-bc58-1a7d6b2e836b",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q4 FY24\nPartner agents(5) 34,422",
+    "raw": "{\"statement\": \"Delhivery had 34,422 partner agents as of Q4 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"partner agents\", \"attribute_canonical\": \"partner_agents\", \"value\": \"34,422\", \"value_numeric\": 34422, \"unit\": null, \"temporal_scope\": \"Q4 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q4 FY24\\nPartner agents(5) 34,422\", \"page\": 8, \"confidence\": 0.99, \"extra\": {\"definition\": \"Count of last mile delivery partner agents in the last month of the relevant period\"}}",
+    "created_at": "2026-09-07T06:56:12.381701+00:00"
+  },
+  {
+    "id": "84946ff0-9e63-4469-a640-a594e8daf0eb",
+    "document_id": "4681f427-e718-492c-8576-04314a648b01",
+    "chunk_id": "4681f427-e718-492c-8576-04314a648b01:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Q3 FY24\nFleet size – daily average 13,688",
+    "raw": "{\"statement\": \"Delhivery's daily average fleet size was 13,688 as of Q3 FY24.\", \"entity_raw\": \"Delhivery\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"fleet size (daily average)\", \"attribute_canonical\": \"fleet_size_daily_average\", \"value\": \"13,688\", \"value_numeric\": 13688, \"unit\": null, \"temporal_scope\": \"Q3 FY24\", \"fact_type\": \"numeric\", \"quote\": \"Q3 FY24\\nFleet size – daily average 13,688\", \"page\": 8, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:56:12.395924+00:00"
+  },
+  {
+    "id": "cce6e7c3-a1d3-4f8a-8fd8-faa8c925fd9c",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Revenue from Operations ... 81,415.38",
+    "raw": "{\"statement\": \"Consolidated revenue from operations for FY24 was ₹81,415.38 million.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"revenue from operations\", \"attribute_canonical\": \"revenue_from_operations\", \"value\": \"81,415.38\", \"value_numeric\": 81415.38, \"unit\": \"INR Mn\", \"temporal_scope\": \"FY24\", \"fact_type\": \"numeric\", \"quote\": \"Revenue from Operations ... 81,415.38\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"scope\": \"consolidated\"}}",
+    "created_at": "2026-09-07T06:59:22.442050+00:00"
+  },
+  {
+    "id": "7d080056-188d-4a05-abf5-a542e3a4b105",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Loss for the year ... (2,491.86)",
+    "raw": "{\"statement\": \"Consolidated loss for FY24 was ₹2,491.86 million.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"loss for the year\", \"attribute_canonical\": \"loss_for_the_year\", \"value\": \"(2,491.86)\", \"value_numeric\": -2491.86, \"unit\": \"INR Mn\", \"temporal_scope\": \"FY24\", \"fact_type\": \"numeric\", \"quote\": \"Loss for the year ... (2,491.86)\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"scope\": \"consolidated\"}}",
+    "created_at": "2026-09-07T06:59:22.493191+00:00"
+  },
+  {
+    "id": "8fb7b6dc-972f-4c28-a0f5-5e06c8d18415",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "has over 80 applications through which your Company provides various services",
+    "raw": "{\"statement\": \"Delhivery has over 80 applications through which it provides various services.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"number of applications\", \"attribute_canonical\": \"number_of_applications\", \"value\": \"over 80\", \"value_numeric\": 80, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"numeric\", \"quote\": \"has over 80 applications through which your Company provides various services\", \"page\": 22, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T06:59:22.568497+00:00"
+  },
+  {
+    "id": "80350f0d-0b33-4c7e-9dac-dd58dc51c192",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "operated 29 fully and semi automated sortation centres",
+    "raw": "{\"statement\": \"Delhivery operates 29 fully and semi-automated sortation centres as of March 31, 2024.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"automated sortation centres count\", \"attribute_canonical\": \"automated_sortation_centres_count\", \"value\": \"29\", \"value_numeric\": 29, \"unit\": null, \"temporal_scope\": \"as of March 31, 2024\", \"fact_type\": \"numeric\", \"quote\": \"operated 29 fully and semi automated sortation centres\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"type\": \"fully and semi-automated\"}}",
+    "created_at": "2026-09-07T06:59:22.636752+00:00"
+  },
+  {
+    "id": "04cc1fe6-072b-4f87-b639-c30188732d0d",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "at gateways in Bhiwandi (Maharashtra), Tauru (Haryana) and Bengaluru (Karnataka)",
+    "raw": "{\"statement\": \"Delhivery has automated material handling systems at gateways in Bhiwandi (Maharashtra), Tauru (Haryana), and Bengaluru (Karnataka).\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"automated gateway locations\", \"attribute_canonical\": \"automated_gateway_locations\", \"value\": \"Bhiwandi (Maharashtra), Tauru (Haryana), Bengaluru (Karnataka)\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"at gateways in Bhiwandi (Maharashtra), Tauru (Haryana) and Bengaluru (Karnataka)\", \"page\": 22, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:59:22.779417+00:00"
+  },
+  {
+    "id": "5b458f42-f447-4233-bd8b-51ff965a396d",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "to a diverse base of over 33,000 active customers such as e-commerce marketplaces",
+    "raw": "{\"statement\": \"Delhivery provided logistics and supply chain solutions to a diverse base of over 33,000 active customers as of March 31, 2024.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"active customers count\", \"attribute_canonical\": \"active_customers_count\", \"value\": \"over 33,000\", \"value_numeric\": 33000, \"unit\": null, \"temporal_scope\": \"as of March 31, 2024\", \"fact_type\": \"numeric\", \"quote\": \"to a diverse base of over 33,000 active customers such as e-commerce marketplaces\", \"page\": 22, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T06:59:22.856435+00:00"
+  },
+  {
+    "id": "4fd8261c-245e-4321-b2e6-04bc2093b903",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "provides services in 18,793 postal index number (\"PIN\") codes, as of March 31, 2024",
+    "raw": "{\"statement\": \"Delhivery operates a pan-India network providing services in 18,793 postal index codes as of March 31, 2024.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"PIN codes covered\", \"attribute_canonical\": \"pin_codes_covered\", \"value\": \"18,793\", \"value_numeric\": 18793, \"unit\": null, \"temporal_scope\": \"as of March 31, 2024\", \"fact_type\": \"numeric\", \"quote\": \"provides services in 18,793 postal index number (\\\"PIN\\\") codes, as of March 31, 2024\", \"page\": 22, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:59:22.927612+00:00"
+  },
+  {
+    "id": "e58ae4b2-6113-465c-8c98-7a30a7b78af7",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "acquired 10.94% stake in the equity share capital of Vinculum in India for a consideration of ₹250 million in July 2023",
+    "raw": "{\"statement\": \"Delhivery acquired 10.94% stake in the equity share capital of Vinculum Solutions Private Limited.\", \"entity_raw\": \"Vinculum Solutions Private Limited\", \"entity_canonical\": \"vinculum\", \"attribute_raw\": \"equity stake held by Delhivery\", \"attribute_canonical\": \"equity_stake_delhivery\", \"value\": \"10.94\", \"value_numeric\": 10.94, \"unit\": \"%\", \"temporal_scope\": \"July 2023\", \"fact_type\": \"numeric\", \"quote\": \"acquired 10.94% stake in the equity share capital of Vinculum in India for a consideration of ₹250 million in July 2023\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"investor\": \"delhivery\"}}",
+    "created_at": "2026-09-07T06:59:23.012918+00:00"
+  },
+  {
+    "id": "e9a5abc4-c443-4872-ba24-8f7347d8c025",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "which has scaled up into a leading SaaS Omni Channel software company working with over 400 brands",
+    "raw": "{\"statement\": \"Vinculum is a leading SaaS Omni Channel software company working with over 400 brands.\", \"entity_raw\": \"Vinculum Solutions Private Limited\", \"entity_canonical\": \"vinculum\", \"attribute_raw\": \"brands served count\", \"attribute_canonical\": \"brands_served_count\", \"value\": \"over 400\", \"value_numeric\": 400, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"numeric\", \"quote\": \"which has scaled up into a leading SaaS Omni Channel software company working with over 400 brands\", \"page\": 22, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T06:59:23.117847+00:00"
+  },
+  {
+    "id": "bff92f7d-77ee-4261-9eb2-dd4ebfd69f78",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "working with over 400 brands across Grocery & FMCG, Healthcare, Beauty, Cosmetics, Fashion, and Jewelry in India, South East Asia, and the Middle East markets",
+    "raw": "{\"statement\": \"Vinculum works with brands across Grocery & FMCG, Healthcare, Beauty, Cosmetics, Fashion, and Jewelry in India, South East Asia, and the Middle East markets.\", \"entity_raw\": \"Vinculum Solutions Private Limited\", \"entity_canonical\": \"vinculum\", \"attribute_raw\": \"industry sectors and geographic presence\", \"attribute_canonical\": \"industry_sectors_geographic_presence\", \"value\": \"Grocery & FMCG, Healthcare, Beauty, Cosmetics, Fashion, Jewelry; India, South East Asia, Middle East\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"working with over 400 brands across Grocery & FMCG, Healthcare, Beauty, Cosmetics, Fashion, and Jewelry in India, South East Asia, and the Middle East markets\", \"page\": 22, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:59:23.220662+00:00"
+  },
+  {
+    "id": "c751a9ad-5dc4-47c2-8477-ef540dc63d2e",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Falcon is an associate company of Delhivery and is engaged in the business of designing, manufacturing, supplying, implementing, and maintaining logistics automation systems in India",
+    "raw": "{\"statement\": \"Falcon Autotech Private Limited is an associate company of Delhivery engaged in designing, manufacturing, supplying, implementing, and maintaining logistics automation systems in India.\", \"entity_raw\": \"Falcon Autotech Private Limited\", \"entity_canonical\": \"falcon_autotech\", \"attribute_raw\": \"relationship with Delhivery and business description\", \"attribute_canonical\": \"relationship_business_description\", \"value\": \"associate company; designs, manufactures, supplies, implements, maintains logistics automation systems in India\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"Falcon is an associate company of Delhivery and is engaged in the business of designing, manufacturing, supplying, implementing, and maintaining logistics automation systems in India\", \"page\": 22, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T06:59:23.385543+00:00"
+  },
+  {
+    "id": "89ca59f5-5fc0-4f06-bfea-bcaa438dff3d",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "application of merger was filed with National Company Law Tribunal (\"NCLT\") on March 30, 2024",
+    "raw": "{\"statement\": \"A Scheme of Amalgamation for merger of Spoton Logistics Private Limited and Spoton Supply Chain Solutions Private Limited into Delhivery Limited was approved by the Board and filed with NCLT on March 30, 2024.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"merger/amalgamation filing\", \"attribute_canonical\": \"merger_amalgamation_filing\", \"value\": \"Spoton Logistics Private Limited and Spoton Supply Chain Solutions Private Limited merged into Delhivery; NCLT filing on March 30, 2024\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"March 30, 2024\", \"fact_type\": \"textual\", \"quote\": \"application of merger was filed with National Company Law Tribunal (\\\"NCLT\\\") on March 30, 2024\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"status\": \"filed with NCLT\"}}",
+    "created_at": "2026-09-07T06:59:23.454991+00:00"
+  },
+  {
+    "id": "1e4520a1-2a5a-47c2-a416-55261672a876",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Spoton Logistics Private Limited (Wholly Owned Subsidiary of the Company)",
+    "raw": "{\"statement\": \"Spoton Logistics Private Limited is a Wholly Owned Subsidiary of Delhivery Limited.\", \"entity_raw\": \"Spoton Logistics Private Limited\", \"entity_canonical\": \"spoton_logistics\", \"attribute_raw\": \"ownership relationship\", \"attribute_canonical\": \"ownership_relationship\", \"value\": \"Wholly Owned Subsidiary\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"categorical\", \"quote\": \"Spoton Logistics Private Limited (Wholly Owned Subsidiary of the Company)\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"parent\": \"delhivery\"}}",
+    "created_at": "2026-09-07T06:59:23.516976+00:00"
+  },
+  {
+    "id": "2b2f5d51-56bb-44f5-adfd-16adef890e95",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Spoton Supply Chain Solutions Private Limited (Wholly Owned Subsidiary of Spoton Logistics Private Limited)",
+    "raw": "{\"statement\": \"Spoton Supply Chain Solutions Private Limited is a Wholly Owned Subsidiary of Spoton Logistics Private Limited.\", \"entity_raw\": \"Spoton Supply Chain Solutions Private Limited\", \"entity_canonical\": \"spoton_supply_chain\", \"attribute_raw\": \"ownership relationship\", \"attribute_canonical\": \"ownership_relationship\", \"value\": \"Wholly Owned Subsidiary\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"categorical\", \"quote\": \"Spoton Supply Chain Solutions Private Limited (Wholly Owned Subsidiary of Spoton Logistics Private Limited)\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"parent\": \"spoton_logistics\"}}",
+    "created_at": "2026-09-07T06:59:23.604356+00:00"
+  },
+  {
+    "id": "a62b56e5-a673-4e5c-a8f8-f11567a7a225",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Other Income ... 4,526.96",
+    "raw": "{\"statement\": \"Consolidated other income for FY24 was ₹4,526.96 million.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"other income\", \"attribute_canonical\": \"other_income\", \"value\": \"4,526.96\", \"value_numeric\": 4526.96, \"unit\": \"INR Mn\", \"temporal_scope\": \"FY24\", \"fact_type\": \"numeric\", \"quote\": \"Other Income ... 4,526.96\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"scope\": \"consolidated\"}}",
+    "created_at": "2026-09-07T06:59:23.654157+00:00"
+  },
+  {
+    "id": "930bda19-79bc-44f9-8397-865a68a136cb",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Total Income ... 85,942.34",
+    "raw": "{\"statement\": \"Consolidated total income for FY24 was ₹85,942.34 million.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"total income\", \"attribute_canonical\": \"total_income\", \"value\": \"85,942.34\", \"value_numeric\": 85942.34, \"unit\": \"INR Mn\", \"temporal_scope\": \"FY24\", \"fact_type\": \"numeric\", \"quote\": \"Total Income ... 85,942.34\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"scope\": \"consolidated\"}}",
+    "created_at": "2026-09-07T06:59:23.703265+00:00"
+  },
+  {
+    "id": "3c9e6fdb-937c-401c-90d0-e13ad5f332ac",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Less: Total expenses ... 88,249.67",
+    "raw": "{\"statement\": \"Consolidated total expenses for FY24 were ₹88,249.67 million.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"total expenses\", \"attribute_canonical\": \"total_expenses\", \"value\": \"88,249.67\", \"value_numeric\": 88249.67, \"unit\": \"INR Mn\", \"temporal_scope\": \"FY24\", \"fact_type\": \"numeric\", \"quote\": \"Less: Total expenses ... 88,249.67\", \"page\": 22, \"confidence\": 0.99, \"extra\": {\"scope\": \"consolidated\"}}",
+    "created_at": "2026-09-07T06:59:23.755367+00:00"
+  },
+  {
+    "id": "f2ae0387-9188-43d1-80d5-e50e2e44e322",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Appointment of Mr. Anindya Ghose as a Non-Executive Independent Director (DIN: 10243913) for a term of five years with effect from August 04, 2023",
+    "raw": "{\"statement\": \"Anindya Ghose was appointed as a Non-Executive Independent Director for a five-year term effective August 4, 2023\", \"entity_raw\": \"Mr. Anindya Ghose\", \"entity_canonical\": \"anindya_ghose\", \"attribute_raw\": \"appointment as Non-Executive Independent Director\", \"attribute_canonical\": \"board_appointment\", \"value\": \"Non-Executive Independent Director, 5-year term\", \"value_numeric\": 5, \"unit\": \"years\", \"temporal_scope\": \"effective August 04, 2023\", \"fact_type\": \"categorical\", \"quote\": \"Appointment of Mr. Anindya Ghose as a Non-Executive Independent Director (DIN: 10243913) for a term of five years with effect from August 04, 2023\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"din\": \"10243913\", \"type\": \"non_executive_independent\"}}",
+    "created_at": "2026-09-07T07:01:42.514555+00:00"
+  },
+  {
+    "id": "7179d8a5-6682-4196-8a8d-310bf30a6d12",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Re-appointment of Mr. Kapil Bharati (DIN: 02227607) as the Director of the Company, liable to retire by rotation.",
+    "raw": "{\"statement\": \"Kapil Bharati was re-appointed as a Director of the Company, liable to retire by rotation\", \"entity_raw\": \"Mr. Kapil Bharati\", \"entity_canonical\": \"kapil_bharati\", \"attribute_raw\": \"re-appointment as Director\", \"attribute_canonical\": \"board_reappointment\", \"value\": \"Director\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"FY24\", \"fact_type\": \"categorical\", \"quote\": \"Re-appointment of Mr. Kapil Bharati (DIN: 02227607) as the Director of the Company, liable to retire by rotation.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"din\": \"02227607\"}}",
+    "created_at": "2026-09-07T07:01:42.591392+00:00"
+  },
+  {
+    "id": "cacfab49-cd54-4ac9-9bc9-72ef939c0fce",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Sunil Kumar Bansal, Company Secretary and Compliance Officer, ceased to be associated with the Company with effect from May 31, 2023, due to resignation.",
+    "raw": "{\"statement\": \"Sunil Kumar Bansal, Company Secretary and Compliance Officer, ceased to be associated with the Company effective May 31, 2023, due to resignation\", \"entity_raw\": \"Mr. Sunil Kumar Bansal\", \"entity_canonical\": \"sunil_kumar_bansal\", \"attribute_raw\": \"cessation from Company Secretary and Compliance Officer role\", \"attribute_canonical\": \"kmp_cessation\", \"value\": \"resigned\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"May 31, 2023\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Sunil Kumar Bansal, Company Secretary and Compliance Officer, ceased to be associated with the Company with effect from May 31, 2023, due to resignation.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"reason\": \"resignation\", \"role\": \"Company Secretary and Compliance Officer\"}}",
+    "created_at": "2026-09-07T07:01:42.687311+00:00"
+  },
+  {
+    "id": "e27844c0-a7f0-4d72-a514-c13f207db3c2",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Uday Sharma, Head of Business Development of the Company, ceased to be associated with the Company with effect from January 09, 2024, due to resignation.",
+    "raw": "{\"statement\": \"Uday Sharma, Head of Business Development, ceased to be associated with the Company effective January 9, 2024, due to resignation\", \"entity_raw\": \"Mr. Uday Sharma\", \"entity_canonical\": \"uday_sharma\", \"attribute_raw\": \"cessation from Head of Business Development role\", \"attribute_canonical\": \"smp_cessation\", \"value\": \"resigned\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"January 09, 2024\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Uday Sharma, Head of Business Development of the Company, ceased to be associated with the Company with effect from January 09, 2024, due to resignation.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"reason\": \"resignation\", \"previous_role\": \"Head of Business Development\"}}",
+    "created_at": "2026-09-07T07:01:42.785151+00:00"
+  },
+  {
+    "id": "e96d5f58-f97b-4018-9b18-22f01de95256",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Varun Bakshi, who was already associated with your Company as Head of Treasury and Investor Relations took over the new role of SVP - Business Development with effect from January 09, 2024.",
+    "raw": "{\"statement\": \"Varun Bakshi transitioned from Head of Treasury and Investor Relations to SVP - Business Development effective January 9, 2024\", \"entity_raw\": \"Mr. Varun Bakshi\", \"entity_canonical\": \"varun_bakshi\", \"attribute_raw\": \"role change to SVP - Business Development\", \"attribute_canonical\": \"role_transition\", \"value\": \"SVP - Business Development\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"effective January 09, 2024\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Varun Bakshi, who was already associated with your Company as Head of Treasury and Investor Relations took over the new role of SVP - Business Development with effect from January 09, 2024.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"from_role\": \"Head of Treasury and Investor Relations\", \"to_role\": \"SVP - Business Development\"}}",
+    "created_at": "2026-09-07T07:01:42.900230+00:00"
+  },
+  {
+    "id": "d24799de-46b6-4080-b616-27772ee2d75f",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Ms. Pooja Gupta, Chief People Officer of the Company, ceased to be associated with the Company with effect from January 15, 2024, due to resignation.",
+    "raw": "{\"statement\": \"Pooja Gupta, Chief People Officer, ceased to be associated with the Company effective January 15, 2024, due to resignation\", \"entity_raw\": \"Ms. Pooja Gupta\", \"entity_canonical\": \"pooja_gupta\", \"attribute_raw\": \"cessation from Chief People Officer role\", \"attribute_canonical\": \"smp_cessation\", \"value\": \"resigned\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"January 15, 2024\", \"fact_type\": \"categorical\", \"quote\": \"Ms. Pooja Gupta, Chief People Officer of the Company, ceased to be associated with the Company with effect from January 15, 2024, due to resignation.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"reason\": \"resignation\", \"previous_role\": \"Chief People Officer\"}}",
+    "created_at": "2026-09-07T07:01:42.992263+00:00"
+  },
+  {
+    "id": "44e4ac76-d41f-4530-9517-da2411a2bdaf",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Suraj Saharan, who was already associated with the Company as Head of New Ventures took over the new role of the Chief People Officer of the Company with effect from January 15, 2024.",
+    "raw": "{\"statement\": \"Suraj Saharan transitioned from Head of New Ventures to Chief People Officer effective January 15, 2024\", \"entity_raw\": \"Mr. Suraj Saharan\", \"entity_canonical\": \"suraj_saharan\", \"attribute_raw\": \"role change to Chief People Officer\", \"attribute_canonical\": \"role_transition\", \"value\": \"Chief People Officer\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"effective January 15, 2024\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Suraj Saharan, who was already associated with the Company as Head of New Ventures took over the new role of the Chief People Officer of the Company with effect from January 15, 2024.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"from_role\": \"Head of New Ventures\", \"to_role\": \"Chief People Officer\"}}",
+    "created_at": "2026-09-07T07:01:43.102006+00:00"
+  },
+  {
+    "id": "9510a9bb-e216-4650-96a6-cb889c84c239",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Vivek Kumar, who was already associated with the Company as Deputy Company Secretary was appointed as the Company Secretary and Compliance Officer of the Company with effect from June 01, 2023.",
+    "raw": "{\"statement\": \"Vivek Kumar was appointed as Company Secretary and Compliance Officer effective June 1, 2023, after being Deputy Company Secretary\", \"entity_raw\": \"Mr. Vivek Kumar\", \"entity_canonical\": \"vivek_kumar\", \"attribute_raw\": \"appointment as Company Secretary and Compliance Officer\", \"attribute_canonical\": \"kmp_appointment\", \"value\": \"Company Secretary and Compliance Officer\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"effective June 01, 2023\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Vivek Kumar, who was already associated with the Company as Deputy Company Secretary was appointed as the Company Secretary and Compliance Officer of the Company with effect from June 01, 2023.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"from_role\": \"Deputy Company Secretary\", \"to_role\": \"Company Secretary and Compliance Officer\"}}",
+    "created_at": "2026-09-07T07:01:43.211193+00:00"
+  },
+  {
+    "id": "d6daf1eb-e4cf-44f6-95d2-7f322ccc5170",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Vivek Kumar ceased to be associated with the Company with effect from March 27, 2024, due to resignation.",
+    "raw": "{\"statement\": \"Vivek Kumar ceased to be associated with the Company effective March 27, 2024, due to resignation\", \"entity_raw\": \"Mr. Vivek Kumar\", \"entity_canonical\": \"vivek_kumar\", \"attribute_raw\": \"cessation from Company Secretary and Compliance Officer role\", \"attribute_canonical\": \"kmp_cessation\", \"value\": \"resigned\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"March 27, 2024\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Vivek Kumar ceased to be associated with the Company with effect from March 27, 2024, due to resignation.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"reason\": \"resignation\", \"role\": \"Company Secretary and Compliance Officer\"}}",
+    "created_at": "2026-09-07T07:01:43.286645+00:00"
+  },
+  {
+    "id": "2849fc7d-86b0-4260-9716-d83e3c5a780a",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Suvir Suren Sujan, Non-Executive Director (DIN: 01173669), resigned from the Board with effect from August 24, 2023, on account of pre‐occupation and other commitments.",
+    "raw": "{\"statement\": \"Suvir Suren Sujan, Non-Executive Director, resigned from the Board effective August 24, 2023, due to pre-occupation and other commitments\", \"entity_raw\": \"Mr. Suvir Suren Sujan\", \"entity_canonical\": \"suvir_suren_sujan\", \"attribute_raw\": \"resignation from Board\", \"attribute_canonical\": \"board_resignation\", \"value\": \"resigned\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"August 24, 2023\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Suvir Suren Sujan, Non-Executive Director (DIN: 01173669), resigned from the Board with effect from August 24, 2023, on account of pre‐occupation and other commitments.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"din\": \"01173669\", \"reason\": \"pre-occupation and other commitments\"}}",
+    "created_at": "2026-09-07T07:01:43.385917+00:00"
+  },
+  {
+    "id": "0d1880d4-4d21-41ae-b240-5dbd9016bd67",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Mr. Donald Francis Colleran, Non-Executive Director (DIN: 09431299), was liable to retire by rotation at the 12th AGM, and not proposed for re-election due to his unwillingness. Therefore, Mr. Donald Francis Colleran ceased to be a Director at the conclusion of the 12th AGM i.e., September 27, 2023.",
+    "raw": "{\"statement\": \"Donald Francis Colleran, Non-Executive Director, ceased to be a Director at the conclusion of the 12th AGM on September 27, 2023, as he was liable to retire by rotation and not proposed for re-election due to unwillingness\", \"entity_raw\": \"Mr. Donald Francis Colleran\", \"entity_canonical\": \"donald_francis_colleran\", \"attribute_raw\": \"cessation from Board\", \"attribute_canonical\": \"board_cessation\", \"value\": \"ceased as Director\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"September 27, 2023\", \"fact_type\": \"categorical\", \"quote\": \"Mr. Donald Francis Colleran, Non-Executive Director (DIN: 09431299), was liable to retire by rotation at the 12th AGM, and not proposed for re-election due to his unwillingness. Therefore, Mr. Donald Francis Colleran ceased to be a Director at the conclusion of the 12th AGM i.e., September 27, 2023.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"din\": \"09431299\", \"reason\": \"unwillingness to continue\"}}",
+    "created_at": "2026-09-07T07:01:43.411033+00:00"
+  },
+  {
+    "id": "0f7348a9-2888-4a7d-b576-6b4915afce9e",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Post the completion of FY24, Mr. Sandeep Kumar Barasia (DIN: 01432123) resigned from the office of Executive Director & Chief Business Officer, with effect from July 01, 2024, due to personal reasons.",
+    "raw": "{\"statement\": \"Sandeep Kumar Barasia resigned from the office of Executive Director & Chief Business Officer effective July 1, 2024, due to personal reasons, post-completion of FY24\", \"entity_raw\": \"Mr. Sandeep Kumar Barasia\", \"entity_canonical\": \"sandeep_kumar_barasia\", \"attribute_raw\": \"resignation from Executive Director & Chief Business Officer role\", \"attribute_canonical\": \"board_resignation\", \"value\": \"resigned\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"July 01, 2024\", \"fact_type\": \"categorical\", \"quote\": \"Post the completion of FY24, Mr. Sandeep Kumar Barasia (DIN: 01432123) resigned from the office of Executive Director & Chief Business Officer, with effect from July 01, 2024, due to personal reasons.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"din\": \"01432123\", \"reason\": \"personal reasons\", \"timing\": \"post-FY24\"}}",
+    "created_at": "2026-09-07T07:01:43.435598+00:00"
+  },
+  {
+    "id": "ea579ce1-263c-4a11-8388-9e355ccab446",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Post the completion of FY24, Ms. Madhulika Rawat was appointed as the Company Secretary and Compliance Officer of the Company with effect from May 17, 2024.",
+    "raw": "{\"statement\": \"Madhulika Rawat was appointed as Company Secretary and Compliance Officer effective May 17, 2024, post-completion of FY24\", \"entity_raw\": \"Ms. Madhulika Rawat\", \"entity_canonical\": \"madhulika_rawat\", \"attribute_raw\": \"appointment as Company Secretary and Compliance Officer\", \"attribute_canonical\": \"kmp_appointment\", \"value\": \"Company Secretary and Compliance Officer\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"May 17, 2024\", \"fact_type\": \"categorical\", \"quote\": \"Post the completion of FY24, Ms. Madhulika Rawat was appointed as the Company Secretary and Compliance Officer of the Company with effect from May 17, 2024.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"timing\": \"post-FY24\"}}",
+    "created_at": "2026-09-07T07:01:43.535057+00:00"
+  },
+  {
+    "id": "d9e6808c-cca0-4347-b214-e21a9c3227c2",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "In terms of the provisions of Section 152(6) of the Act and the Rules made thereunder, Mr. Sahil Barua (DIN: 05131571), Managing Director and Chief Executive Officer is liable to retire by rotation at the ensuing AGM. Mr. Sahil Barua, being eligible, has offered himself for re-appointment. Based on ",
+    "raw": "{\"statement\": \"Sahil Barua, Managing Director and Chief Executive Officer, is liable to retire by rotation at the ensuing AGM and has been recommended for re-appointment by the NRC and Board\", \"entity_raw\": \"Mr. Sahil Barua\", \"entity_canonical\": \"sahil_barua\", \"attribute_raw\": \"liability to retire and Board recommendation for re-appointment\", \"attribute_canonical\": \"board_reappointment_recommendation\", \"value\": \"recommended for re-appointment\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"ensuing AGM\", \"fact_type\": \"categorical\", \"quote\": \"In terms of the provisions of Section 152(6) of the Act and the Rules made thereunder, Mr. Sahil Barua (DIN: 05131571), Managing Director and Chief Executive Officer is liable to retire by rotation at the ensuing AGM. Mr. Sahil Barua, being eligible, has offered himself for re-appointment. Based on the recommendations of the NRC, the Board recommends re-appointment of Mr. Sahil Barua at the ensuing AGM.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"din\": \"05131571\"}}",
+    "created_at": "2026-09-07T07:01:43.558978+00:00"
+  },
+  {
+    "id": "790ab4aa-147b-4d42-86cb-c21104a80f05",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "All the Directors (other than the Independent Directors), on the Board of your Company are liable to retire by rotation.",
+    "raw": "{\"statement\": \"All Directors other than Independent Directors on the Board are liable to retire by rotation\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"directors retirement by rotation policy\", \"attribute_canonical\": \"board_retirement_policy\", \"value\": \"liable to retire by rotation\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"FY24\", \"fact_type\": \"categorical\", \"quote\": \"All the Directors (other than the Independent Directors), on the Board of your Company are liable to retire by rotation.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:01:43.646327+00:00"
+  },
+  {
+    "id": "6fe1896d-4916-4972-b3e8-ad6be14df847",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "The Company has the following six (6) Board-level Committees, which have been established in compliance with the requirements of the business and relevant provisions of applicable laws and statutes",
+    "raw": "{\"statement\": \"Delhivery has established six Board-level Committees\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"Board-level Committees established\", \"attribute_canonical\": \"board_committees_count\", \"value\": \"6\", \"value_numeric\": 6, \"unit\": null, \"temporal_scope\": \"FY24\", \"fact_type\": \"numeric\", \"quote\": \"The Company has the following six (6) Board-level Committees, which have been established in compliance with the requirements of the business and relevant provisions of applicable laws and statutes\", \"page\": 24, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:01:43.764068+00:00"
+  },
+  {
+    "id": "8e24ed7b-e021-4faa-9343-c31a8e0b5611",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "M&A Committee was formed to review and recommend merger, acquisition and corporate investment transactions. However, in the Board Meeting held on August 04, 2023, it was noted that such matters have been placed before the Board for wider discussion and hence the Board dissolved the M&A Committee, wi",
+    "raw": "{\"statement\": \"M&A Committee was dissolved effective August 4, 2023, after being formed to review and recommend merger, acquisition and corporate investment transactions\", \"entity_raw\": \"M&A Committee\", \"entity_canonical\": \"merger_amalgamation_committee\", \"attribute_raw\": \"committee dissolution\", \"attribute_canonical\": \"committee_status\", \"value\": \"dissolved\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"August 04, 2023\", \"fact_type\": \"categorical\", \"quote\": \"M&A Committee was formed to review and recommend merger, acquisition and corporate investment transactions. However, in the Board Meeting held on August 04, 2023, it was noted that such matters have been placed before the Board for wider discussion and hence the Board dissolved the M&A Committee, with effect from August 04, 2023.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"reason\": \"matters placed before full Board for wider discussion\", \"status\": \"dissolved\"}}",
+    "created_at": "2026-09-07T07:01:43.791463+00:00"
+  },
+  {
+    "id": "18f6708b-4175-4c85-a866-d1841553d77b",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Therefore, Mr. Donald Francis Colleran ceased to be a Director at the conclusion of the 12th AGM i.e., September 27, 2023.",
+    "raw": "{\"statement\": \"Delhivery's 12th Annual General Meeting was held on September 27, 2023\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"12th AGM date\", \"attribute_canonical\": \"agm_date\", \"value\": \"September 27, 2023\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2023\", \"fact_type\": \"temporal\", \"quote\": \"Therefore, Mr. Donald Francis Colleran ceased to be a Director at the conclusion of the 12th AGM i.e., September 27, 2023.\", \"page\": 24, \"confidence\": 0.95, \"extra\": {\"event\": \"12th_AGM\"}}",
+    "created_at": "2026-09-07T07:01:43.878334+00:00"
+  },
+  {
+    "id": "c64893c7-9d3f-442d-a1b8-db4dce8430f8",
+    "document_id": "5157e972-f705-4d92-8fc1-3192d57e4195",
+    "chunk_id": "5157e972-f705-4d92-8fc1-3192d57e4195:2",
+    "issue_type": "ungrounded_quote",
+    "detail": "N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, IGI Airport, New Delhi 110037",
+    "raw": "{\"statement\": \"Delhivery Limited's registered office address is N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6, Cargo Terminal, IGI Airport, New Delhi 110037.\", \"entity_raw\": \"Delhivery Limited\", \"entity_canonical\": \"delhivery\", \"attribute_raw\": \"registered office address\", \"attribute_canonical\": \"registered_office_address\", \"value\": \"N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, IGI Airport, New Delhi 110037\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": null, \"fact_type\": \"textual\", \"quote\": \"N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, IGI Airport, New Delhi 110037\", \"page\": 51, \"confidence\": 0.95, \"extra\": {\"location_type\": \"registered_office\"}}",
+    "created_at": "2026-09-07T07:02:58.660198+00:00"
+  },
+  {
+    "id": "f64a8e73-d7cd-402a-af13-c68a5cbfad49",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "below the growth of 3.3 per cent in 2024",
+    "raw": "{\"statement\": \"Global economy growth rate in 2024 was 3.3 per cent\", \"entity_raw\": \"global economy\", \"entity_canonical\": \"global_economy\", \"attribute_raw\": \"growth rate\", \"attribute_canonical\": \"growth_rate\", \"value\": \"3.3 per cent\", \"value_numeric\": 3.3, \"unit\": \"%\", \"temporal_scope\": \"2024\", \"fact_type\": \"numeric\", \"quote\": \"below the growth of 3.3 per cent in 2024\", \"page\": 6, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.550931+00:00"
+  },
+  {
+    "id": "c8dba89c-4acd-4128-8bae-566593bc0bc0",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Global inflation moderated in 2024 on the back of softening commodity prices, easing supply conditions and the lagged impact of monetary tightening in 2022",
+    "raw": "{\"statement\": \"Global inflation moderation in 2024 was driven by softening commodity prices, easing supply conditions, and lagged impact of monetary tightening in 2022\", \"entity_raw\": \"Global inflation\", \"entity_canonical\": \"global_inflation\", \"attribute_raw\": \"causes of moderation\", \"attribute_canonical\": \"causes_of_moderation\", \"value\": \"softening commodity prices, easing supply conditions, lagged impact of monetary tightening in 2022\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024\", \"fact_type\": \"categorical\", \"quote\": \"Global inflation moderated in 2024 on the back of softening commodity prices, easing supply conditions and the lagged impact of monetary tightening in 2022\", \"page\": 6, \"confidence\": 0.9, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.594057+00:00"
+  },
+  {
+    "id": "0f70e22b-0e93-4bfb-a018-6ee8a51fb062",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Financial conditions broadly eased as major central banks pivoted to accommodative monetary policy stance by mid-2024",
+    "raw": "{\"statement\": \"Financial conditions broadly eased as major central banks pivoted to accommodative monetary policy stance by mid-2024\", \"entity_raw\": \"Financial conditions\", \"entity_canonical\": \"financial_conditions\", \"attribute_raw\": \"trend\", \"attribute_canonical\": \"trend\", \"value\": \"eased\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"by mid-2024\", \"fact_type\": \"qualitative\", \"quote\": \"Financial conditions broadly eased as major central banks pivoted to accommodative monetary policy stance by mid-2024\", \"page\": 6, \"confidence\": 0.9, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.620676+00:00"
+  },
+  {
+    "id": "bab9cc52-2e91-4962-8549-01c8c0c13a6e",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Yet, bouts of volatility in global financial markets were visible during the year",
+    "raw": "{\"statement\": \"Bouts of volatility in global financial markets were visible during 2024\", \"entity_raw\": \"global financial markets\", \"entity_canonical\": \"global_financial_markets\", \"attribute_raw\": \"volatility\", \"attribute_canonical\": \"volatility\", \"value\": \"visible\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024\", \"fact_type\": \"qualitative\", \"quote\": \"Yet, bouts of volatility in global financial markets were visible during the year\", \"page\": 6, \"confidence\": 0.85, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.643537+00:00"
+  },
+  {
+    "id": "16f58cb1-807c-4e45-9677-77490d86cd81",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Merchandise trade rebounded gradually in spite of persisting geopolitical tensions and policy uncertainty",
+    "raw": "{\"statement\": \"Merchandise trade rebounded gradually in 2024\", \"entity_raw\": \"Merchandise trade\", \"entity_canonical\": \"merchandise_trade\", \"attribute_raw\": \"trend\", \"attribute_canonical\": \"trend\", \"value\": \"rebounded gradually\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024\", \"fact_type\": \"qualitative\", \"quote\": \"Merchandise trade rebounded gradually in spite of persisting geopolitical tensions and policy uncertainty\", \"page\": 6, \"confidence\": 0.9, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.667536+00:00"
+  },
+  {
+    "id": "81a9889d-488e-4a1e-b4c2-a7b1a89de8c7",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Capital flows to emerging market economies (EMEs) remained volatile owing to elevated geoeconomic and policy uncertainties",
+    "raw": "{\"statement\": \"Capital flows to emerging market economies remained volatile owing to elevated geoeconomic and policy uncertainties\", \"entity_raw\": \"Capital flows to emerging market economies\", \"entity_canonical\": \"capital_flows_eme\", \"attribute_raw\": \"volatility\", \"attribute_canonical\": \"volatility\", \"value\": \"volatile\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024\", \"fact_type\": \"qualitative\", \"quote\": \"Capital flows to emerging market economies (EMEs) remained volatile owing to elevated geoeconomic and policy uncertainties\", \"page\": 6, \"confidence\": 0.9, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.696010+00:00"
+  },
+  {
+    "id": "3aa81276-8821-44ba-903d-82fb4d22fd20",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "The global economy in 2025 is likely to grow not only below its historical average (2000-19) of 3.7 per cent, but also below the growth of 3.3 per cent in 2024",
+    "raw": "{\"statement\": \"The global economy in 2025 is expected to grow below its historical average (2000-19) of 3.7 per cent and below 2024 growth of 3.3 per cent\", \"entity_raw\": \"global economy\", \"entity_canonical\": \"global_economy\", \"attribute_raw\": \"expected growth rate\", \"attribute_canonical\": \"expected_growth_rate\", \"value\": \"below 3.7 per cent and below 3.3 per cent\", \"value_numeric\": null, \"unit\": \"%\", \"temporal_scope\": \"2025\", \"fact_type\": \"categorical\", \"quote\": \"The global economy in 2025 is likely to grow not only below its historical average (2000-19) of 3.7 per cent, but also below the growth of 3.3 per cent in 2024\", \"page\": 6, \"confidence\": 0.9, \"extra\": {\"nature\": \"forecast\"}}",
+    "created_at": "2026-09-07T07:15:29.729508+00:00"
+  },
+  {
+    "id": "18b1aa41-7cf2-4b27-ae76-6e8b12597a6d",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "persisting stickiness in services inflation in major advanced economies (AEs)",
+    "raw": "{\"statement\": \"Services inflation in major advanced economies exhibits persisting stickiness\", \"entity_raw\": \"major advanced economies\", \"entity_canonical\": \"advanced_economies\", \"attribute_raw\": \"services inflation stickiness\", \"attribute_canonical\": \"services_inflation_stickiness\", \"value\": \"persisting stickiness\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024\", \"fact_type\": \"qualitative\", \"quote\": \"persisting stickiness in services inflation in major advanced economies (AEs)\", \"page\": 6, \"confidence\": 0.85, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.754716+00:00"
+  },
+  {
+    "id": "ce16f861-9af2-414b-9ae5-e9603581e12d",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "the Indian economy exhibited resilience during 2024-25",
+    "raw": "{\"statement\": \"The Indian economy exhibited resilience during 2024-25\", \"entity_raw\": \"Indian economy\", \"entity_canonical\": \"indian_economy\", \"attribute_raw\": \"performance characteristic\", \"attribute_canonical\": \"performance_characteristic\", \"value\": \"resilience\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024-25\", \"fact_type\": \"qualitative\", \"quote\": \"the Indian economy exhibited resilience during 2024-25\", \"page\": 6, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.771744+00:00"
+  },
+  {
+    "id": "8b332cd7-adc8-40de-a6a6-5b2a12331b6d",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "Inflation eased and moved below the target by the end of the year",
+    "raw": "{\"statement\": \"Inflation in India eased and moved below the target by the end of the year\", \"entity_raw\": \"Indian inflation\", \"entity_canonical\": \"indian_inflation\", \"attribute_raw\": \"trend and position relative to target\", \"attribute_canonical\": \"trend_vs_target\", \"value\": \"eased and moved below target\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"by end of 2024-25\", \"fact_type\": \"qualitative\", \"quote\": \"Inflation eased and moved below the target by the end of the year\", \"page\": 6, \"confidence\": 0.9, \"extra\": {\"end_of_year\": \"March 31, 2025\"}}",
+    "created_at": "2026-09-07T07:15:29.792593+00:00"
+  },
+  {
+    "id": "d9d20044-8945-48fe-8f80-6ab4bc7eebee",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "The financial sector remained resilient and robust on the back of healthier bank and non-bank balance sheets, improved asset quality and capital buffers",
+    "raw": "{\"statement\": \"The Indian financial sector remained resilient and robust with healthier bank and non-bank balance sheets and improved asset quality\", \"entity_raw\": \"Indian financial sector\", \"entity_canonical\": \"indian_financial_sector\", \"attribute_raw\": \"condition and characteristics\", \"attribute_canonical\": \"sector_condition\", \"value\": \"resilient and robust with healthier balance sheets and improved asset quality\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024-25\", \"fact_type\": \"qualitative\", \"quote\": \"The financial sector remained resilient and robust on the back of healthier bank and non-bank balance sheets, improved asset quality and capital buffers\", \"page\": 6, \"confidence\": 0.9, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.825170+00:00"
+  },
+  {
+    "id": "f0ac1d72-538a-48fb-a6a2-f404e2034660",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "the central government continued with its efforts towards fiscal consolidation",
+    "raw": "{\"statement\": \"The Indian central government continued with efforts towards fiscal consolidation\", \"entity_raw\": \"Government of India\", \"entity_canonical\": \"government_of_india\", \"attribute_raw\": \"fiscal policy efforts\", \"attribute_canonical\": \"fiscal_policy_efforts\", \"value\": \"continued fiscal consolidation efforts\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024-25\", \"fact_type\": \"qualitative\", \"quote\": \"the central government continued with its efforts towards fiscal consolidation\", \"page\": 6, \"confidence\": 0.9, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.859597+00:00"
+  },
+  {
+    "id": "42a3d1e9-701b-4a20-9e31-5acf1ed064f6",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "supported by buoyant tax revenues",
+    "raw": "{\"statement\": \"Indian tax revenues were buoyant during 2024-25\", \"entity_raw\": \"Government of India\", \"entity_canonical\": \"government_of_india\", \"attribute_raw\": \"tax revenue status\", \"attribute_canonical\": \"tax_revenue_status\", \"value\": \"buoyant\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024-25\", \"fact_type\": \"qualitative\", \"quote\": \"supported by buoyant tax revenues\", \"page\": 6, \"confidence\": 0.85, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.883067+00:00"
+  },
+  {
+    "id": "7101f8c8-3454-4b02-b134-a9fb6dc7d13d",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "A modest current account deficit (CAD)",
+    "raw": "{\"statement\": \"India had a modest current account deficit during 2024-25\", \"entity_raw\": \"Indian economy\", \"entity_canonical\": \"indian_economy\", \"attribute_raw\": \"current account deficit\", \"attribute_canonical\": \"current_account_deficit\", \"value\": \"modest\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024-25\", \"fact_type\": \"qualitative\", \"quote\": \"A modest current account deficit (CAD)\", \"page\": 6, \"confidence\": 0.85, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.902124+00:00"
+  },
+  {
+    "id": "418dd6d0-0f45-400f-8c18-a084c11987ae",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:0",
+    "issue_type": "ungrounded_quote",
+    "detail": "adequate forex reserves provided resilience to the external sector",
+    "raw": "{\"statement\": \"India had adequate forex reserves providing resilience to the external sector\", \"entity_raw\": \"Indian economy\", \"entity_canonical\": \"indian_economy\", \"attribute_raw\": \"forex reserves level\", \"attribute_canonical\": \"forex_reserves\", \"value\": \"adequate\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2024-25\", \"fact_type\": \"qualitative\", \"quote\": \"adequate forex reserves provided resilience to the external sector\", \"page\": 6, \"confidence\": 0.85, \"extra\": {}}",
+    "created_at": "2026-09-07T07:15:29.924077+00:00"
+  },
+  {
+    "id": "d3e3b0af-3721-4b66-99a0-20949976ed1c",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "real GDP growth for 2025-26 is projected at 6.5 per cent",
+    "raw": "{\"statement\": \"Real GDP growth for 2025-26 is projected at 6.5 per cent\", \"entity_raw\": \"the country\", \"entity_canonical\": \"india\", \"attribute_raw\": \"real GDP growth projection\", \"attribute_canonical\": \"real_gdp_growth_projection\", \"value\": \"6.5 per cent\", \"value_numeric\": 6.5, \"unit\": \"%\", \"temporal_scope\": \"2025-26\", \"fact_type\": \"numeric\", \"quote\": \"real GDP growth for 2025-26 is projected at 6.5 per cent\", \"page\": 17, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:17:30.755807+00:00"
+  },
+  {
+    "id": "cada26f5-c2ed-4747-abe5-88324c6a161f",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "real GDP growth for 2025-26 is projected at 6.5 per cent, with risks evenly balanced",
+    "raw": "{\"statement\": \"Risks to real GDP growth for 2025-26 are evenly balanced\", \"entity_raw\": \"real GDP growth\", \"entity_canonical\": \"india\", \"attribute_raw\": \"risk assessment\", \"attribute_canonical\": \"risk_assessment\", \"value\": \"evenly balanced\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2025-26\", \"fact_type\": \"categorical\", \"quote\": \"real GDP growth for 2025-26 is projected at 6.5 per cent, with risks evenly balanced\", \"page\": 17, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:17:30.779970+00:00"
+  },
+  {
+    "id": "5aed1308-5adb-4ef0-b678-53c9089ec9c7",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "Union Budget 2025-26 has set the target of 100 gigawatt (GW) of nuclear power capacity by 2047",
+    "raw": "{\"statement\": \"The Union Budget 2025-26 has set a target of 100 gigawatt of nuclear power capacity by 2047\", \"entity_raw\": \"Union Budget 2025-26\", \"entity_canonical\": \"india\", \"attribute_raw\": \"nuclear power capacity target\", \"attribute_canonical\": \"nuclear_power_capacity_target\", \"value\": \"100 gigawatt\", \"value_numeric\": 100, \"unit\": \"GW\", \"temporal_scope\": \"by 2047\", \"fact_type\": \"numeric\", \"quote\": \"Union Budget 2025-26 has set the target of 100 gigawatt (GW) of nuclear power capacity by 2047\", \"page\": 17, \"confidence\": 0.95, \"extra\": {\"target_year\": 2047}}",
+    "created_at": "2026-09-07T07:17:30.804763+00:00"
+  },
+  {
+    "id": "1b6738c6-b310-4cb2-993b-96e6183534f6",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "permitting states an additional borrowing limit of 0.5 per cent of gross state domestic product (GSDP)",
+    "raw": "{\"statement\": \"States have been permitted an additional borrowing limit of 0.5 per cent of gross state domestic product for power sector improvements\", \"entity_raw\": \"states\", \"entity_canonical\": \"indian_states\", \"attribute_raw\": \"additional borrowing limit as percentage of GSDP\", \"attribute_canonical\": \"additional_borrowing_limit\", \"value\": \"0.5 per cent\", \"value_numeric\": 0.5, \"unit\": \"%\", \"temporal_scope\": \"2025-26\", \"fact_type\": \"numeric\", \"quote\": \"permitting states an additional borrowing limit of 0.5 per cent of gross state domestic product (GSDP)\", \"page\": 17, \"confidence\": 0.95, \"extra\": {\"basis\": \"GSDP\"}}",
+    "created_at": "2026-09-07T07:17:30.833531+00:00"
+  },
+  {
+    "id": "441ac9d3-76c8-4f95-aa92-d9bfe5a0949d",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "The budgetary provision for the Ministry of Science and Technology has more than doubled in 2025-26 from the previous year",
+    "raw": "{\"statement\": \"The budgetary provision for the Ministry of Science and Technology has more than doubled in 2025-26 from the previous year\", \"entity_raw\": \"Ministry of Science and Technology\", \"entity_canonical\": \"india_ministry_of_science_and_technology\", \"attribute_raw\": \"budgetary provision increase 2025-26 vs previous year\", \"attribute_canonical\": \"budgetary_provision_change\", \"value\": \"more than doubled\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2025-26\", \"fact_type\": \"categorical\", \"quote\": \"The budgetary provision for the Ministry of Science and Technology has more than doubled in 2025-26 from the previous year\", \"page\": 17, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:17:30.863093+00:00"
+  },
+  {
+    "id": "7a0b5184-f61b-4578-b13e-e68bdbf90b15",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "India's relatively low share of research & development (R&D) expenditure in GDP (0.6 per cent)",
+    "raw": "{\"statement\": \"India's research and development expenditure as a share of GDP is 0.6 per cent\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"research and development expenditure as share of GDP\", \"attribute_canonical\": \"rd_expenditure_share_of_gdp\", \"value\": \"0.6 per cent\", \"value_numeric\": 0.6, \"unit\": \"%\", \"temporal_scope\": null, \"fact_type\": \"numeric\", \"quote\": \"India's relatively low share of research & development (R&D) expenditure in GDP (0.6 per cent)\", \"page\": 17, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:17:30.890806+00:00"
+  },
+  {
+    "id": "bde4d1f5-7fdc-4bea-a973-6fca6d551135",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "headline inflation eased by 73 bps to 4.6 per cent in 2024-25",
+    "raw": "{\"statement\": \"Headline inflation eased by 73 basis points to 4.6 per cent in 2024-25\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"headline inflation\", \"attribute_canonical\": \"headline_inflation\", \"value\": \"4.6 per cent\", \"value_numeric\": 4.6, \"unit\": \"%\", \"temporal_scope\": \"2024-25\", \"fact_type\": \"numeric\", \"quote\": \"headline inflation eased by 73 bps to 4.6 per cent in 2024-25\", \"page\": 17, \"confidence\": 0.95, \"extra\": {\"change_magnitude_bps\": 73}}",
+    "created_at": "2026-09-07T07:17:30.927155+00:00"
+  },
+  {
+    "id": "a56ec251-6fa0-4496-9405-a51a2db82272",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "CPI inflation for 2025-26 is projected at 4.0 per cent, with risks evenly balanced",
+    "raw": "{\"statement\": \"Risks to CPI inflation for 2025-26 are evenly balanced\", \"entity_raw\": \"CPI inflation\", \"entity_canonical\": \"india\", \"attribute_raw\": \"risk assessment\", \"attribute_canonical\": \"risk_assessment\", \"value\": \"evenly balanced\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"2025-26\", \"fact_type\": \"categorical\", \"quote\": \"CPI inflation for 2025-26 is projected at 4.0 per cent, with risks evenly balanced\", \"page\": 17, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:17:30.962581+00:00"
+  },
+  {
+    "id": "bb6275d5-5171-46bc-98a9-738a904d3a0b",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "durable alignment of headline inflation with the target of 4.0 per cent over a 12-month horizon",
+    "raw": "{\"statement\": \"The Reserve Bank of India's inflation target is 4.0 per cent over a 12-month horizon\", \"entity_raw\": \"MPC\", \"entity_canonical\": \"rbi_monetary_policy_committee\", \"attribute_raw\": \"inflation target\", \"attribute_canonical\": \"inflation_target\", \"value\": \"4.0 per cent\", \"value_numeric\": 4.0, \"unit\": \"%\", \"temporal_scope\": null, \"fact_type\": \"numeric\", \"quote\": \"durable alignment of headline inflation with the target of 4.0 per cent over a 12-month horizon\", \"page\": 17, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:17:30.989077+00:00"
+  },
+  {
+    "id": "d14dca85-33d6-42f5-92ce-62c16729fc6c",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "With inflation falling below the target in February and March 2025",
+    "raw": "{\"statement\": \"Inflation fell below the target in February and March 2025\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"inflation performance relative to target\", \"attribute_canonical\": \"inflation_vs_target\", \"value\": \"below target\", \"value_numeric\": null, \"unit\": null, \"temporal_scope\": \"February and March 2025\", \"fact_type\": \"categorical\", \"quote\": \"With inflation falling below the target in February and March 2025\", \"page\": 17, \"confidence\": 0.95, \"extra\": {}}",
+    "created_at": "2026-09-07T07:17:31.010696+00:00"
+  },
+  {
+    "id": "8ea79571-7a38-4d7e-9a7b-f3841b63601b",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:1",
+    "issue_type": "ungrounded_quote",
+    "detail": "the MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent",
+    "raw": "{\"statement\": \"The Monetary Policy Committee in April 2025 unanimously voted to reduce the policy repo rate by 25 basis points to 6.0 per cent\", \"entity_raw\": \"MPC\", \"entity_canonical\": \"rbi_monetary_policy_committee\", \"attribute_raw\": \"policy repo rate\", \"attribute_canonical\": \"policy_repo_rate\", \"value\": \"6.0 per cent\", \"value_numeric\": 6.0, \"unit\": \"%\", \"temporal_scope\": \"April 2025\", \"fact_type\": \"numeric\", \"quote\": \"the MPC in its April 2025 meeting unanimously voted to reduce the policy repo rate by 25 bps to 6.0 per cent\", \"page\": 17, \"confidence\": 0.95, \"extra\": {\"vote_unanimity\": \"unanimous\", \"rate_reduction_bps\": 25}}",
+    "created_at": "2026-09-07T07:17:31.038400+00:00"
+  },
+  {
+    "id": "6d357952-70ee-41b1-96dd-2645301434b3",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:2",
+    "issue_type": "ungrounded_quote",
+    "detail": "growth softened to 5.6 per cent in Q2",
+    "raw": "{\"statement\": \"Real GDP growth in India softened to 5.6 per cent year-on-year in Q2 of 2024-25\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"Real GDP growth Q2\", \"attribute_canonical\": \"real_gdp_growth_q2\", \"value\": \"5.6\", \"value_numeric\": 5.6, \"unit\": \"%\", \"temporal_scope\": \"Q2:2024-25\", \"fact_type\": \"numeric\", \"quote\": \"growth softened to 5.6 per cent in Q2\", \"page\": 24, \"confidence\": 0.99, \"extra\": {\"measurement_basis\": \"year_on_year\"}}",
+    "created_at": "2026-09-07T07:19:46.587009+00:00"
+  },
+  {
+    "id": "5fe1ea44-a5fa-46e1-8e99-5a003214a011",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:2",
+    "issue_type": "ungrounded_quote",
+    "detail": "the economy, however, picked up momentum in Q3 to grow by 6.2 per cent",
+    "raw": "{\"statement\": \"Real GDP growth in India was 6.2 per cent in Q3 of 2024-25\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"Real GDP growth Q3\", \"attribute_canonical\": \"real_gdp_growth_q3\", \"value\": \"6.2\", \"value_numeric\": 6.2, \"unit\": \"%\", \"temporal_scope\": \"Q3:2024-25\", \"fact_type\": \"numeric\", \"quote\": \"the economy, however, picked up momentum in Q3 to grow by 6.2 per cent\", \"page\": 24, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T07:19:46.606245+00:00"
+  },
+  {
+    "id": "a63e3c8f-1962-4010-84ec-82c7cb4dd4df",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:2",
+    "issue_type": "ungrounded_quote",
+    "detail": "Growth in private final consumption expenditure (PFCE) – the main component of aggregate demand – improved to 7.6 per cent in 2024-25",
+    "raw": "{\"statement\": \"Private final consumption expenditure growth in India improved to 7.6 per cent in 2024-25\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"Private final consumption expenditure growth\", \"attribute_canonical\": \"private_final_consumption_expenditure_growth\", \"value\": \"7.6\", \"value_numeric\": 7.6, \"unit\": \"%\", \"temporal_scope\": \"2024-25\", \"fact_type\": \"numeric\", \"quote\": \"Growth in private final consumption expenditure (PFCE) – the main component of aggregate demand – improved to 7.6 per cent in 2024-25\", \"page\": 24, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T07:19:46.631588+00:00"
+  },
+  {
+    "id": "9c4bfe4b-19cd-4c43-946c-67de15ed66f5",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:2",
+    "issue_type": "ungrounded_quote",
+    "detail": "The share of PFCE in real GDP increased to 56.7 per cent in 2024-25",
+    "raw": "{\"statement\": \"The share of private final consumption expenditure in real GDP in India increased to 56.7 per cent in 2024-25\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"Share of PFCE in real GDP\", \"attribute_canonical\": \"pfce_share_of_real_gdp\", \"value\": \"56.7\", \"value_numeric\": 56.7, \"unit\": \"%\", \"temporal_scope\": \"2024-25\", \"fact_type\": \"numeric\", \"quote\": \"The share of PFCE in real GDP increased to 56.7 per cent in 2024-25\", \"page\": 24, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T07:19:46.650004+00:00"
+  },
+  {
+    "id": "6eb8bf30-6ba1-4d32-999a-209d56760cee",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:2",
+    "issue_type": "ungrounded_quote",
+    "detail": "Government final consumption expenditure (GFCE) grew at a modest 3.8 per cent in 2024-25",
+    "raw": "{\"statement\": \"Government final consumption expenditure growth in India was 3.8 per cent in 2024-25\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"Government final consumption expenditure growth\", \"attribute_canonical\": \"government_final_consumption_expenditure_growth\", \"value\": \"3.8\", \"value_numeric\": 3.8, \"unit\": \"%\", \"temporal_scope\": \"2024-25\", \"fact_type\": \"numeric\", \"quote\": \"Government final consumption expenditure (GFCE) grew at a modest 3.8 per cent in 2024-25\", \"page\": 24, \"confidence\": 0.99, \"extra\": {}}",
+    "created_at": "2026-09-07T07:19:46.668633+00:00"
+  },
+  {
+    "id": "b88c4921-36b3-4e35-91ec-7b4012087eab",
+    "document_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e",
+    "chunk_id": "c5264ea5-50ba-4990-9edf-2c0f1205d44e:2",
+    "issue_type": "ungrounded_quote",
+    "detail": "The rate of gross domestic investment in the Indian economy, measured by the ratio of gross capital formation (GCF) to GDP at current prices, declined to 31.4 per cent in 2023-24",
+    "raw": "{\"statement\": \"The rate of gross domestic investment in India declined to 31.4 per cent in 2023-24\", \"entity_raw\": \"India\", \"entity_canonical\": \"india\", \"attribute_raw\": \"Gross domestic investment rate as share of GDP\", \"attribute_canonical\": \"gross_domestic_investment_rate\", \"value\": \"31.4\", \"value_numeric\": 31.4, \"unit\": \"%\", \"temporal_scope\": \"2023-24\", \"fact_type\": \"numeric\", \"quote\": \"The rate of gross domestic investment in the Indian economy, measured by the ratio of gross capital formation (GCF) to GDP at current prices, declined to 31.4 per cent in 2023-24\", \"page\": 24, \"confidence\": 0.98, \"extra\": {\"measurement\": \"GCF to GDP at current prices\"}}",
+    "created_at": "2026-09-07T07:19:46.706234+00:00"
+  },
+  {
+    "id": "8d32c427-966b-4d4e-8002-2aefd63cbaf3",
+    "document_id": null,
+    "chunk_id": null,
+    "issue_type": "relation_llm_error",
+    "detail": "Could not parse JSON from LLM response: ''",
+    "raw": "",
+    "created_at": "2026-09-07T07:22:19.422464+00:00"
+  }
+]

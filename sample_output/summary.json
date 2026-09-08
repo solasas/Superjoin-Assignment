@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-08T13:22:31.155076+00:00",
+  "documents": 6,
+  "facts": 423,
+  "facts_grounded": 326,
+  "relations_by_type": {
+    "CONTRADICTS": 4,
+    "CORROBORATES": 17,
+    "RECONCILABLE_CONTEXT": 132
+  },
+  "extraction_issues": 98
+}
